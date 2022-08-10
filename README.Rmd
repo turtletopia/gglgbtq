@@ -21,12 +21,57 @@ options(gglgbtq_font_size = 1.7)
 [![Codecov test coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.svg)](https://codecov.io/gh/turtletopia/gglgbtq?branch=master)
 <!-- badges: end -->
 
+gglgbtq provides multiple palettes based on flags in LGBTQ community. These palettes are accompanied by ggplot2 themes that maximize readability of each palette (especially of the white strip that is present in most flags).
+
 ## Installation
 
 ```{r eval = FALSE}
 # Install the development version from GitHub:
 # install.packages("devtools")
 devtools::install_github("turtletopia/gglgbtq")
+```
+
+## User guide
+
+To list all available palettes, call:
+
+```{r}
+# Showing only the first 6 palettes (to avoid cluttering this README)
+head(show_pride())
+```
+
+The most common use case is to use palettes with ggplot2:
+
+```{r, fig.height=3}
+library(ggplot2)
+
+data <- data.frame(
+  group = rep(c("yes", "no", "maybe"), each = 3),
+  x = rep(seq_len(3), times = 3),
+  y = runif(3 * 3) + .5
+)
+
+ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = palette_lgbtq("pansexual"))
+```
+
+Use matching `theme_lgbtq()` to make colors stand out the most:
+
+```{r, fig.height=3}
+ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  theme_lgbtq("pansexual")
+```
+
+`theme_lgbtq()` passes additional parameters to `ggplot2::theme()`, so it's fully customizable:
+
+```{r, fig.height=3}
+ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  theme_lgbtq("pansexual", legend.position = "left")
 ```
 
 ## Gallery
