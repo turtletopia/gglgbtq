@@ -12,6 +12,11 @@ status](https://www.r-pkg.org/badges/version/gglgbtq)](https://CRAN.R-project.or
 coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.svg)](https://codecov.io/gh/turtletopia/gglgbtq?branch=master)
 <!-- badges: end -->
 
+gglgbtq provides multiple palettes based on flags in LGBTQ community.
+These palettes are accompanied by ggplot2 themes that maximize
+readability of each palette (especially of the white strip that is
+present in most flags).
+
 ## Installation
 
 ``` r
@@ -20,106 +25,163 @@ coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.sv
 devtools::install_github("turtletopia/gglgbtq")
 ```
 
+## User guide
+
+To list all available palettes, call:
+
+``` r
+# Showing only the first 6 palettes (to avoid cluttering this README)
+head(show_pride())
+##       palettes lengths
+## 1      rainbow       6
+## 2 philadelphia       8
+## 3     progress      11
+## 4     bisexual       3
+## 5      asexual       4
+## 6  transgender       3
+```
+
+The most common use case is to use palettes with ggplot2:
+
+``` r
+library(ggplot2)
+
+data <- data.frame(
+  group = rep(c("yes", "no", "maybe"), each = 3),
+  x = rep(seq_len(3), times = 3),
+  y = runif(3 * 3) + .5
+)
+
+ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = palette_lgbtq("pansexual"))
+```
+
+![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+Use matching `theme_lgbtq()` to make colors stand out the most:
+
+``` r
+ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  theme_lgbtq("pansexual")
+```
+
+![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+`theme_lgbtq()` passes additional parameters to `ggplot2::theme()`, so
+it’s fully customizable:
+
+``` r
+ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  theme_lgbtq("pansexual", legend.position = "left")
+```
+
+![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+
 ## Gallery
 
 ``` r
 palette_lgbtq("rainbow")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ``` r
 palette_lgbtq("philadelphia")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
 
 ``` r
 palette_lgbtq("progress")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-3.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
 
 ``` r
 palette_lgbtq("lesbian")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-4.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
 
 ``` r
 palette_lgbtq("gay_man")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-5.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-5.png)<!-- -->
 
 ``` r
 palette_lgbtq("bisexual")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-6.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-6.png)<!-- -->
 
 ``` r
 # Background added to avoid the "disappearance" of the white stripe
 print(palette_lgbtq("transgender"), background = "gray92")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-7.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-7.png)<!-- -->
 
 ``` r
 palette_lgbtq("asexual")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-8.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-8.png)<!-- -->
 
 ``` r
 palette_lgbtq("pansexual")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-9.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-9.png)<!-- -->
 
 ``` r
 palette_lgbtq("nonbinary")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-10.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-10.png)<!-- -->
 
 ``` r
 palette_lgbtq("intersex")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-11.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-11.png)<!-- -->
 
 ``` r
 palette_lgbtq("aromantic")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-12.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-12.png)<!-- -->
 
 ``` r
 palette_lgbtq("genderfluid")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-13.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-13.png)<!-- -->
 
 ``` r
 palette_lgbtq("genderqueer")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-14.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-14.png)<!-- -->
 
 ``` r
 # Alternative version of 5-stripes lesbian flag
 palette_lgbtq("lesbian_7")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-15.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-15.png)<!-- -->
 
 ``` r
 # Alternative version of 5-stripes gay men flag
 palette_lgbtq("gay_man_7")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-3-16.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-16.png)<!-- -->
 
 ## End notes
 
