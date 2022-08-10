@@ -5,7 +5,7 @@
 #'
 #' @template name
 #'
-#' @template available-palettes
+#' @eval roxygen_available_palettes()
 #'
 #' @return An `lgbtq_palette` object containing a vector of RGB color codes as
 #' strings.

@@ -22,22 +22,22 @@ flag. Note: the number of colors vary between palettes!
 
 Currently available palettes are:
 \itemize{
-\item \code{rainbow} (6 colors),
-\item \code{philadelphia} (8 colors),
-\item \code{progress} (11 colors),
-\item \code{bisexual} (3 colors),
-\item \code{asexual} (4 colors),
-\item \code{transgender} (3 colors),
-\item \code{pansexual} (3 colors),
-\item \code{nonbinary} (4 colors),
-\item \code{lesbian} (5 colors),
-\item \code{gay_man} (5 colors),
-\item \code{intersex} (2 colors),
-\item \code{aromantic} (5 colors),
-\item \code{genderfluid} (5 colors),
-\item \code{genderqueer} (3 colors),
-\item \code{lesbian_7} (7 colors),
-\item \code{gay_man_7} (7 colors).
+\item \code{rainbow} (6 colors)
+\item \code{philadelphia} (8 colors)
+\item \code{progress} (11 colors)
+\item \code{bisexual} (3 colors)
+\item \code{asexual} (4 colors)
+\item \code{transgender} (3 colors)
+\item \code{pansexual} (3 colors)
+\item \code{nonbinary} (4 colors)
+\item \code{lesbian} (5 colors)
+\item \code{gay_man} (5 colors)
+\item \code{intersex} (2 colors)
+\item \code{aromantic} (5 colors)
+\item \code{genderfluid} (5 colors)
+\item \code{genderqueer} (3 colors)
+\item \code{lesbian_7} (7 colors)
+\item \code{gay_man_7} (7 colors)
 }
 }
 

@@ -9,7 +9,7 @@
 #' @param ... \cr
 #'  Parameters passed to \code{\link[ggplot2]{theme}()}.
 #'
-#' @template available-palettes
+#' @eval roxygen_available_palettes()
 #'
 #' @return A ggplot2 `theme` object.
 #'

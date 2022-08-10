@@ -14,6 +14,7 @@ coverage:
         informational: true
 
 ignore:
+  - "R/utils-docs.R"
   - "R/zzz.R"
   - "R/zzz_data.R"
 
