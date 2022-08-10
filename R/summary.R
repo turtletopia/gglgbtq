@@ -12,6 +12,7 @@ show_pride <- function() {
   data.frame(
     palettes = names(pride_data),
     lengths = vapply(pride_data, function(p) length(p[["colors"]]),
-                     integer(1), USE.NAMES = FALSE)
+                     integer(1), USE.NAMES = FALSE),
+    stringsAsFactors = FALSE
   )
 }
