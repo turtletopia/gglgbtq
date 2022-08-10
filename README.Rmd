@@ -9,7 +9,7 @@ knitr::opts_chunk$set(
 )
 
 library(gglgbtq)
-options(gglgbtq_font_size = 1.7)
+options(gglgbtq_font_size = 1.71)
 ```
 
 # gglgbtq
