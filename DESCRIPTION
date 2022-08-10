@@ -1,0 +1,21 @@
+Package: gglgbtq
+Type: Package
+Title: Show Pride on ggplot2 Plots
+Version: 0.1.0
+Date: 2022-08-06
+Authors@R: c(person("Laura", "Bakala",
+             email = "erdaradun.gaztea@gmail.com",
+             role = c("cre", "aut", "cph")))
+Description: Provides multiple palettes based on pride flags with tailored themes.
+Imports: 
+    ggplot2,
+    graphics,
+    grDevices
+Suggests: 
+    testthat (>= 3.0.0)
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Config/testthat/edition: 3
+URL: https://github.com/turtletopia/gglgbtq
