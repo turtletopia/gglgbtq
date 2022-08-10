@@ -2,6 +2,7 @@
 
 S3method(print,lgbtq_palette)
 export(palette_lgbtq)
+export(show_pride)
 export(theme_lgbtq)
 importFrom(ggplot2,element_line)
 importFrom(ggplot2,element_rect)
