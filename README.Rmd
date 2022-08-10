@@ -2,6 +2,16 @@
 output: github_document
 ---
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.height = 1.6
+)
+
+library(gglgbtq)
+options(gglgbtq_font_size = 1.7)
+```
+
 # gglgbtq
 
 <!-- badges: start -->
@@ -17,6 +27,30 @@ output: github_document
 # Install the development version from GitHub:
 # install.packages("devtools")
 devtools::install_github("turtletopia/gglgbtq")
+```
+
+## Gallery
+
+```{r}
+palette_lgbtq("rainbow")
+palette_lgbtq("philadelphia")
+palette_lgbtq("progress")
+palette_lgbtq("lesbian")
+palette_lgbtq("gay_man")
+palette_lgbtq("bisexual")
+# Background added to avoid the "disappearance" of the white stripe
+print(palette_lgbtq("transgender"), background = "gray92")
+palette_lgbtq("asexual")
+palette_lgbtq("pansexual")
+palette_lgbtq("nonbinary")
+palette_lgbtq("intersex")
+palette_lgbtq("aromantic")
+palette_lgbtq("genderfluid")
+palette_lgbtq("genderqueer")
+# Alternative version of 5-stripes lesbian flag
+palette_lgbtq("lesbian_7")
+# Alternative version of 5-stripes gay men flag
+palette_lgbtq("gay_man_7")
 ```
 
 ## End notes
