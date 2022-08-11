@@ -1,6 +1,6 @@
 Package: gglgbtq
 Type: Package
-Title: Show Pride on ggplot2 Plots
+Title: Show Pride on 'ggplot2' Plots
 Version: 0.1.0
 Date: 2022-08-06
 Authors@R: c(person("Laura", "Bakala",
