@@ -7,7 +7,7 @@
 palette_lgbtq(name)
 }
 \arguments{
-\item{name}{[\code{character(1)}]\cr
+\item{name}{\code{character(1)}\cr
 Name of the flag the colors are based on.}
 }
 \value{

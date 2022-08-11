@@ -6,7 +6,7 @@
 #' LGBTQ themes are carefully curated for each palette.
 #'
 #' @template name
-#' @param ... \cr
+#' @param ... \code{ANY}\cr
 #'  Parameters passed to \code{\link[ggplot2]{theme}()}.
 #'
 #' @eval roxygen_available_palettes()

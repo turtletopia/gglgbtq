@@ -7,10 +7,10 @@
 theme_lgbtq(name, ...)
 }
 \arguments{
-\item{name}{[\code{character(1)}]\cr
+\item{name}{\code{character(1)}\cr
 Name of the flag the colors are based on.}
 
-\item{...}{\cr
+\item{...}{\code{ANY}\cr
 Parameters passed to \code{\link[ggplot2]{theme}()}.}
 }
 \value{
