@@ -46,7 +46,6 @@ Currently available palettes are:
 }
 
 \examples{
-\dontrun{
 library(ggplot2)
 ggplot(data.frame(x = 1:10, y = 15:6,
                   group = rep(c("a", "b"), each = 5)),
@@ -55,6 +54,5 @@ ggplot(data.frame(x = 1:10, y = 15:6,
   scale_color_manual(values = palette_lgbtq("intersex")) +
   # Use the same name as for values, preferably
   theme_lgbtq("intersex")
-}
 
 }

@@ -13,14 +13,12 @@
 #' @examples
 #' palette_lgbtq("bisexual")
 #'
-#' \dontrun{
 #' library(ggplot2)
 #' ggplot(data.frame(x = 1:10, y = 15:6,
 #'                   group = rep(c("a", "b"), each = 5)),
 #'        aes(x = x, y = y, color = group)) +
 #'   geom_point(size = 4) +
 #'   scale_color_manual(values = palette_lgbtq("intersex"))
-#' }
 #'
 #' @export
 palette_lgbtq <- function(name) {

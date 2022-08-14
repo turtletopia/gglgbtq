@@ -14,7 +14,6 @@
 #' @return A ggplot2 `theme` object.
 #'
 #' @examples
-#' \dontrun{
 #' library(ggplot2)
 #' ggplot(data.frame(x = 1:10, y = 15:6,
 #'                   group = rep(c("a", "b"), each = 5)),
@@ -23,7 +22,6 @@
 #'   scale_color_manual(values = palette_lgbtq("intersex")) +
 #'   # Use the same name as for values, preferably
 #'   theme_lgbtq("intersex")
-#' }
 #'
 #' @importFrom ggplot2 theme element_rect element_line rel
 #' @export
