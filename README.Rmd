@@ -96,6 +96,7 @@ palette_lgbtq("genderqueer")
 palette_lgbtq("agender")
 palette_lgbtq("demiboy")
 palette_lgbtq("demigirl")
+palette_lgbtq("bigender")
 # Alternative version of 5-stripes lesbian flag
 palette_lgbtq("lesbian_7")
 # Alternative version of 5-stripes gay men flag
