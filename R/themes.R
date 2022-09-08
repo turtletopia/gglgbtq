@@ -53,7 +53,7 @@ theme_lgbtq_white <- function(...) {
   )
 }
 
-theme_lgbtq_agender <- function(...) {
+theme_agender <- function(...) {
   ggplot2::theme(
     panel.background = element_rect(fill = "#DDE3D8", color = NA),
     panel.grid.minor = element_line(size = rel(0.5)),
@@ -62,7 +62,7 @@ theme_lgbtq_agender <- function(...) {
   )
 }
 
-theme_lgbtq_demiboy <- function(...) {
+theme_demiboy <- function(...) {
   ggplot2::theme(
     panel.background = element_rect(fill = "#D8E0E3", color = NA),
     panel.grid.minor = element_line(size = rel(0.5)),
@@ -71,7 +71,7 @@ theme_lgbtq_demiboy <- function(...) {
   )
 }
 
-theme_lgbtq_demigirl <- function(...) {
+theme_demigirl <- function(...) {
   ggplot2::theme(
     panel.background = element_rect(fill = "#E3DADD", color = NA),
     panel.grid.minor = element_line(size = rel(0.5)),
@@ -80,5 +80,5 @@ theme_lgbtq_demigirl <- function(...) {
   )
 }
 
-# Default settings are fine
-theme_bisexual <- ggplot2::theme
+# Default settings are fine too
+theme_ggplot2 <- ggplot2::theme
