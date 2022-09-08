@@ -57,6 +57,10 @@ pride_data <- list(
     colors = c("#000000", "#BCC4C7", "#FFFFFF", "#B7F684"),
     theme = theme_lgbtq_agender
   ),
+  demiboy = list(
+    colors = c("#7F7F7F", "#C4C4C4", "#9DD7EA", "#FFFFFF"),
+    theme = theme_lgbtq_demiboy
+  ),
   demigirl = list(
     colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF"),
     theme = theme_lgbtq_demigirl

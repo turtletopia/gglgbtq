@@ -62,6 +62,15 @@ theme_lgbtq_agender <- function(...) {
   )
 }
 
+theme_lgbtq_demiboy <- function(...) {
+  ggplot2::theme(
+    panel.background = element_rect(fill = "#D8E0E3", color = NA),
+    panel.grid.minor = element_line(size = rel(0.5)),
+    legend.key = element_rect(fill = "#D8E0E3", color = NA),
+    ...
+  )
+}
+
 theme_lgbtq_demigirl <- function(...) {
   ggplot2::theme(
     panel.background = element_rect(fill = "#E3DADD", color = NA),
