@@ -1,5 +1,7 @@
 # gglgbtq (development version)
 
+* Changed `gay_man` to `gay`.
+
 # gglgbtq 0.1.0
 
 * Initial version of the package.

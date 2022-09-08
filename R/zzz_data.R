@@ -31,7 +31,7 @@ pride_data <- list(
   lesbian = list(
     colors = c("#D62900", "#FF9B55", "#FFFFFF", "#D461A6", "#A50062")
   ),
-  gay_man = list(
+  gay = list(
     colors = c("#078D70", "#98E8C1", "#FFFFFF", "#7BADE2", "#3D1A78")
   ),
   intersex = list(
@@ -50,7 +50,7 @@ pride_data <- list(
   lesbian_7 = list(
     colors = c("#A60061", "#B95594", "#D162A8", "#FFFFFF", "#E5ADD1", "#C64D53", "#8C1801")
   ),
-  gay_man_7 = list(
+  gay_7 = list(
     colors = c("#078D70", "#26CEAA", "#98E8C1", "#FFFFFF", "#7BADE2", "#5049CC", "#3D1A78")
   )
 )

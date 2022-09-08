@@ -81,7 +81,8 @@ palette_lgbtq("rainbow")
 palette_lgbtq("philadelphia")
 palette_lgbtq("progress")
 palette_lgbtq("lesbian")
-palette_lgbtq("gay_man")
+# In its original meaning of "gay men"
+palette_lgbtq("gay")
 palette_lgbtq("bisexual")
 # Background added to avoid the "disappearance" of the white stripe
 print(palette_lgbtq("transgender"), background = "gray92")
@@ -95,7 +96,7 @@ palette_lgbtq("genderqueer")
 # Alternative version of 5-stripes lesbian flag
 palette_lgbtq("lesbian_7")
 # Alternative version of 5-stripes gay men flag
-palette_lgbtq("gay_man_7")
+palette_lgbtq("gay_7")
 ```
 
 ## End notes
