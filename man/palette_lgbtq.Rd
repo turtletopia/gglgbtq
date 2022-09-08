@@ -39,6 +39,7 @@ Currently available palettes are:
 \item \code{lesbian_7} (7 colors)
 \item \code{gay_7} (7 colors)
 \item \code{agender} (4 colors)
+\item \code{demigirl} (4 colors)
 }
 }
 
