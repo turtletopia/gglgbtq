@@ -53,5 +53,14 @@ theme_lgbtq_white <- function(...) {
   )
 }
 
+theme_lgbtq_agender <- function(...) {
+  ggplot2::theme(
+    panel.background = element_rect(fill = "#D1D0C5", color = NA),
+    panel.grid.minor = element_line(size = rel(0.5)),
+    legend.key = element_rect(fill = "#D1D0C5", color = NA),
+    ...
+  )
+}
+
 # Default settings are fine
 theme_bisexual <- ggplot2::theme

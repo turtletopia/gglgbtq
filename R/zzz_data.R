@@ -52,5 +52,9 @@ pride_data <- list(
   ),
   gay_7 = list(
     colors = c("#078D70", "#26CEAA", "#98E8C1", "#FFFFFF", "#7BADE2", "#5049CC", "#3D1A78")
+  ),
+  agender = list(
+    colors = c("#000000", "#BCC4C7", "#FFFFFF", "#B7F684"),
+    theme = theme_lgbtq_agender
   )
 )

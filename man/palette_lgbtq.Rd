@@ -38,6 +38,7 @@ Currently available palettes are:
 \item \code{genderqueer} (3 colors)
 \item \code{lesbian_7} (7 colors)
 \item \code{gay_7} (7 colors)
+\item \code{agender} (4 colors)
 }
 }
 

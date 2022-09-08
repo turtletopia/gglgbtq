@@ -97,6 +97,7 @@ palette_lgbtq("genderqueer")
 palette_lgbtq("lesbian_7")
 # Alternative version of 5-stripes gay men flag
 palette_lgbtq("gay_7")
+palette_lgbtq("agender")
 ```
 
 ## End notes
