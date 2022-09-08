@@ -41,6 +41,7 @@ Currently available palettes are:
 \item \code{agender} (4 colors)
 \item \code{demiboy} (4 colors)
 \item \code{demigirl} (4 colors)
+\item \code{bigender} (6 colors)
 }
 }
 

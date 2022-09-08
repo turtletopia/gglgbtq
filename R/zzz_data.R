@@ -64,5 +64,9 @@ pride_data <- list(
   demigirl = list(
     colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF"),
     theme = theme_demigirl
+  ),
+  bigender = list(
+    colors = c("#C479A2", "#EDA5CD", "#D6C7E8", "#FFFFFF", "#9AC7E8", "#6D82D1"),
+    theme = theme_ggplot2
   )
 )
