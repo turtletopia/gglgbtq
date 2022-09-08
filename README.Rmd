@@ -93,11 +93,13 @@ palette_lgbtq("intersex")
 palette_lgbtq("aromantic")
 palette_lgbtq("genderfluid")
 palette_lgbtq("genderqueer")
+palette_lgbtq("agender")
+palette_lgbtq("demiboy")
+palette_lgbtq("demigirl")
 # Alternative version of 5-stripes lesbian flag
 palette_lgbtq("lesbian_7")
 # Alternative version of 5-stripes gay men flag
 palette_lgbtq("gay_7")
-palette_lgbtq("agender")
 ```
 
 ## End notes
