@@ -68,5 +68,8 @@ pride_data <- list(
   bigender = list(
     colors = c("#C479A2", "#EDA5CD", "#D6C7E8", "#FFFFFF", "#9AC7E8", "#6D82D1"),
     theme = theme_ggplot2
+  ),
+  alloace = list(
+    colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
   )
 )
