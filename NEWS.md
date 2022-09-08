@@ -1,6 +1,6 @@
 # gglgbtq (development version)
 
-* Implemented the following palettes: `agender`, `alloace`, `bigender`, `demiboy`, `demigirl`.
+* Implemented the following palettes: `agender`, `alloace`, `aroallo`, `bigender`, `demiboy`, `demigirl`.
 * Changed `gay_man` to `gay`.
 
 # gglgbtq 0.1.0

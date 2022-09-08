@@ -71,5 +71,8 @@ pride_data <- list(
   ),
   alloace = list(
     colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
+  ),
+  aroallo = list(
+    colors = c("#3DA542", "#A8D379", "#FFFFFF", "#FBE34B", "#E8BB00")
   )
 )

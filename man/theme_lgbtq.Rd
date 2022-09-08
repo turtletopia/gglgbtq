@@ -47,6 +47,7 @@ Currently available palettes are:
 \item \code{demigirl} (4 colors)
 \item \code{bigender} (6 colors)
 \item \code{alloace} (4 colors)
+\item \code{aroallo} (5 colors)
 }
 }
 
