@@ -10,7 +10,118 @@ vignette: >
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  fig.height = 1.6,
+  fig.width = 5
 )
 library(gglgbtq)
+options(gglgbtq_font_size = 1.7)
 ```
+
+## The most common flags
+
+```{r rainbow}
+palette_lgbtq("rainbow")
+```
+
+The flag of LGBT+ community, sometimes incorrectly associated with gay men only. Adopted in 1979 after revisions made to the original design with eight stripes reduced the number of colors to six. The one you'll see most often, since it encompasses everyone in LGBT+ community, no exceptions.
+
+```{r lesbian}
+palette_lgbtq("lesbian")
+```
+
+```{r gay}
+palette_lgbtq("gay")
+```
+
+```{r bisexual}
+palette_lgbtq("bisexual")
+```
+
+```{r transgender}
+palette_lgbtq("transgender")
+```
+
+A transgender person is somebody whose gender doesn't match AGAB (assigned gender at birth). It encompasses both binary and nonbinary gender identities (in fact, currently all nonbinary people are technically transgender, since most coutries only allow one of the two binary genders to be assigned at birth).
+
+```{r asexual}
+palette_lgbtq("asexual")
+```
+
+```{r intersex}
+palette_lgbtq("intersex")
+```
+
+```{r nonbinary}
+palette_lgbtq("nonbinary")
+```
+
+A nonbinary person is somebody whose gender is not one of the two binary genders, i.e. woman or man. Usually nonbinary identities fall inside the spectrum between masculinity and feminity, but this need not be true for any enby (nonbinary person).
+
+## Rainbow variants
+
+```{r philadelphia}
+palette_lgbtq("philadelphia")
+```
+
+```{r progress}
+palette_lgbtq("progress")
+```
+
+## Sexualities on A-spectrum
+
+```{r aromantic}
+palette_lgbtq("aromantic")
+```
+
+```{r alloace}
+palette_lgbtq("alloace")
+```
+
+```{r aroallo}
+palette_lgbtq("aroallo")
+```
+
+## Other sexualities
+
+```{r lesbian_7}
+palette_lgbtq("lesbian_7")
+```
+
+```{r gay_7}
+palette_lgbtq("gay_7")
+```
+
+```{r pansexual}
+palette_lgbtq("pansexual")
+```
+
+## Genders on fem-masc spectrum
+
+```{r demiboy}
+palette_lgbtq("demiboy")
+```
+
+```{r demigirl}
+palette_lgbtq("demigirl")
+```
+
+## Other genders
+
+```{r genderfluid}
+palette_lgbtq("genderfluid")
+```
+
+```{r genderqueer}
+palette_lgbtq("genderqueer")
+```
+
+```{r agender}
+palette_lgbtq("agender")
+```
+
+```{r bigender}
+palette_lgbtq("bigender")
+```
+
+## Uncategorized
