@@ -34,23 +34,31 @@ palette_lgbtq("lesbian")
 palette_lgbtq("gay")
 ```
 
+Sometimes "gay" is a synonym to "homosexual", which would include lesbians, but this palette is based on a flag for MLM, men loving men, which is the other meaning of "gay". The flag itself is inspired by the lesbian flag.
+
 ```{r bisexual}
 palette_lgbtq("bisexual")
 ```
+
+Originally meant "attracted to both gender"; for gender is now known to be a spectrum (or perhaps multiple spectrums), the meaning was updated to say "attracted to *two or more* genders". "Bisexual" isn't synonymical to "attracted to all" anymore, for that there are "omnisexual" and "pansexual" terms.
 
 ```{r transgender}
 palette_lgbtq("transgender")
 ```
 
-A transgender person is somebody whose gender doesn't match AGAB (assigned gender at birth). It encompasses both binary and nonbinary gender identities (in fact, currently all nonbinary people are technically transgender, since most coutries only allow one of the two binary genders to be assigned at birth).
+A transgender person is somebody whose gender doesn't match AGAB (assigned gender at birth). It encompasses both binary and nonbinary gender identities (in fact, currently all nonbinary people are technically transgender, since most countries only allow one of the two binary genders to be assigned at birth). The opposite of "transgender" is "cisgender".
 
 ```{r asexual}
 palette_lgbtq("asexual")
 ```
 
+"Asexual" means "not experiencing sexual attraction". This does not imply anything about romantic or tertiary attraction, as asexual person may be aromantic or alloromantic (see "alloace"). Asexual people are often nicknamed "aces". The opposite of "asexual" is "allosexual", i.e. any orientation where a person experiences sexual attraction, whether bi-, homo-, hetero- or any other.
+
 ```{r intersex}
 palette_lgbtq("intersex")
 ```
+
+A person whose sex characteristics (phenotype, chromosomes, hormonal profile, etc.) don't align, i.e. not all of them belong to the same binary sex (male or female). These characteristics don't have to be binary, for most sex characteristic are a spectrum. The opposite of "intersex" is "endosex"/"perisex"/"dyadic" (personally I prefer the first term).
 
 ```{r nonbinary}
 palette_lgbtq("nonbinary")
@@ -74,27 +82,39 @@ palette_lgbtq("progress")
 palette_lgbtq("aromantic")
 ```
 
+An aromantic person does not experience romantic attraction towards anyone.
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```
+
+"Alloace" means "experiencing romantic attraction and not experiencing sexual attraction", not specifying the type of romantic attraction. "Allo" is a shortening of "alloromantic" and "ace" is a nickname for "asexual".
 
 ```{r aroallo}
 palette_lgbtq("aroallo")
 ```
 
+"Aroallo" means "experiencing sexual attraction and not experiencing romantic one", regardless of the type of sexual attraction. "Aro" is a shortening of "aromantic" and "allo" -- of "allosexual".
+
 ## Other sexualities
+
+```{r pansexual}
+palette_lgbtq("pansexual")
+```
+
+A pansexual person may be attracted to any person regardless of target's gender. This sexuality differs from "omnisexual" in that this attraction is not influenced by gender, does not depend on gender. Also, pansexuality's flag is cooler.
 
 ```{r lesbian_7}
 palette_lgbtq("lesbian_7")
 ```
 
+A 7-stripe variant of the lesbian flag.
+
 ```{r gay_7}
 palette_lgbtq("gay_7")
 ```
 
-```{r pansexual}
-palette_lgbtq("pansexual")
-```
+A 7-stripe variant of the gay flag.
 
 ## Genders on fem-masc spectrum
 
@@ -102,9 +122,13 @@ palette_lgbtq("pansexual")
 palette_lgbtq("demiboy")
 ```
 
+A person that is partially a man. The other part of their gender may or may not include other genders.
+
 ```{r demigirl}
 palette_lgbtq("demigirl")
 ```
+
+A person that is partially a woman. The other part of their gender may or may not include other genders.
 
 ## Other genders
 
@@ -120,8 +144,12 @@ palette_lgbtq("genderqueer")
 palette_lgbtq("agender")
 ```
 
+An agender person is somebody who doesn't feel connection with any gender, who can be described as having no gender.
+
 ```{r bigender}
 palette_lgbtq("bigender")
 ```
+
+"Bigender" means a gender identity composed of two genders a person feels strong connection with. They may exist simultaneously or fluctuate over time. One of the two genders is probably stolen from some agender person.
 
 ## Uncategorized
