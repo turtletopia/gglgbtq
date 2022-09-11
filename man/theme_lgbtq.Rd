@@ -35,13 +35,19 @@ Currently available palettes are:
 \item \code{pansexual} (3 colors)
 \item \code{nonbinary} (4 colors)
 \item \code{lesbian} (5 colors)
-\item \code{gay_man} (5 colors)
+\item \code{gay} (5 colors)
 \item \code{intersex} (2 colors)
 \item \code{aromantic} (5 colors)
 \item \code{genderfluid} (5 colors)
 \item \code{genderqueer} (3 colors)
 \item \code{lesbian_7} (7 colors)
-\item \code{gay_man_7} (7 colors)
+\item \code{gay_7} (7 colors)
+\item \code{agender} (4 colors)
+\item \code{demiboy} (4 colors)
+\item \code{demigirl} (4 colors)
+\item \code{bigender} (6 colors)
+\item \code{alloace} (4 colors)
+\item \code{aroallo} (5 colors)
 }
 }
 

@@ -76,26 +76,21 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
 
 ## Gallery
 
+Only a few most common palettes are included below. For the complete list, see [palette gallery vignette](https://turtletopia.github.io/gglgbtq/articles/gallery.html).
+
 ```{r}
 palette_lgbtq("rainbow")
 palette_lgbtq("philadelphia")
 palette_lgbtq("progress")
 palette_lgbtq("lesbian")
-palette_lgbtq("gay_man")
+# In its original meaning of "gay men"
+palette_lgbtq("gay")
 palette_lgbtq("bisexual")
 # Background added to avoid the "disappearance" of the white stripe
 print(palette_lgbtq("transgender"), background = "gray92")
 palette_lgbtq("asexual")
-palette_lgbtq("pansexual")
 palette_lgbtq("nonbinary")
 palette_lgbtq("intersex")
-palette_lgbtq("aromantic")
-palette_lgbtq("genderfluid")
-palette_lgbtq("genderqueer")
-# Alternative version of 5-stripes lesbian flag
-palette_lgbtq("lesbian_7")
-# Alternative version of 5-stripes gay men flag
-palette_lgbtq("gay_man_7")
 ```
 
 ## End notes

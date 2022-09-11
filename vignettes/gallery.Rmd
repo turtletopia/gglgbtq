@@ -1,0 +1,179 @@
+---
+title: "Palette gallery"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Palette gallery}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.height = 1.6,
+  fig.width = 5
+)
+library(gglgbtq)
+options(gglgbtq_font_size = 1.7)
+```
+
+## The most common flags
+
+There are a few flags and related identities within LGBT+ community that are more recognizable than the others. Here are the selected ones that are the most well-known. For other flags, check the other sections.
+
+```{r rainbow}
+palette_lgbtq("rainbow")
+```
+
+The flag of LGBT+ community, sometimes incorrectly associated with gay men only. Adopted in 1979 after revisions made to the original design with eight stripes reduced the number of colors to six. The one you'll see most often, since it encompasses everyone in LGBT+ community, no exceptions.
+
+```{r lesbian}
+palette_lgbtq("lesbian")
+```
+
+Colors derived from the 2018 design with seven stripes, the third widespread design. "Lesbian" means "homosexual woman" and is one of the most known terms from the LGBT+ community. Me and my girlfriend can never remember which side goes on the top when positioning our pins.
+
+```{r gay}
+palette_lgbtq("gay")
+```
+
+Sometimes "gay" is a synonym to "homosexual", which would include lesbians, but this palette is based on a flag for MLM, men loving men, which is the other meaning of "gay". The flag itself is inspired by the lesbian flag.
+
+```{r bisexual}
+palette_lgbtq("bisexual")
+```
+
+Originally meant "attracted to both gender"; for gender is now known to be a spectrum (or perhaps multiple spectra), the meaning was updated to say "attracted to *two or more* genders". "Bisexual" isn't synonymical to "attracted to all" anymore, for that there are "omnisexual" and "pansexual" terms.
+
+```{r transgender}
+palette_lgbtq("transgender")
+```
+
+A transgender person is somebody whose gender doesn't match AGAB (assigned gender at birth). It encompasses both binary and nonbinary gender identities (in fact, currently all nonbinary people are technically transgender, since most countries only allow one of the two binary genders to be assigned at birth). The opposite of "transgender" is "cisgender".
+
+```{r asexual}
+palette_lgbtq("asexual")
+```
+
+"Asexual" means "not experiencing sexual attraction". This does not imply anything about romantic or tertiary attraction, as asexual person may be aromantic or alloromantic (see "alloace"). Asexual people are often nicknamed "aces". The opposite of "asexual" is "allosexual", i.e. any orientation where a person experiences sexual attraction, whether bi-, homo-, hetero- or any other.
+
+```{r intersex}
+palette_lgbtq("intersex")
+```
+
+A person whose sex characteristics (phenotype, chromosomes, hormonal profile, etc.) don't align, i.e. not all of them belong to the same binary sex (male or female). These characteristics don't have to be binary, for most sex characteristic are a spectrum. The opposite of "intersex" is "endosex"/"perisex"/"dyadic" (personally I prefer the first term).
+
+```{r nonbinary}
+palette_lgbtq("nonbinary")
+```
+
+A nonbinary person is somebody whose gender is not one of the two binary genders, i.e. woman or man. Usually nonbinary identities fall inside the spectrum between masculinity and femininity, but this need not be true for any enby (nonbinary person).
+
+## Rainbow variants
+
+Although the six-stripe rainbow flag is the most recognizable, there are other variants, both older and newer. Some try to be more inclusive, others raise an awareness of some issue. Below are the implemented ones:
+
+```{r philadelphia}
+palette_lgbtq("philadelphia")
+```
+
+A 2017 redesign of the 6-stripe rainbow flag adopted first by the city of Philadelphia that draws attention to the struggles of people of color within the LGBT+ community.
+
+```{r progress}
+palette_lgbtq("progress")
+```
+
+A 2018 flag that adds a chevron to the 6-stripe rainbow flag. The chevron contains both black and brown colors added to Philadelphia rainbow flag, and transgender flag colors (light blue, pink, white).
+
+## Sexualities on A-spectrum
+
+A lot of orientations in LGBT+ community belong to the A-spectrum, whether sexual, romantic or tertiary. Thus, enough flags were spawned to justify separating these into their own section.
+
+```{r aromantic}
+palette_lgbtq("aromantic")
+```
+
+An aromantic person does not experience romantic attraction towards anyone.
+
+```{r alloace}
+palette_lgbtq("alloace")
+```
+
+"Alloace" means "experiencing romantic attraction and not experiencing sexual attraction", not specifying the type of romantic attraction. "Allo" is a shortening of "alloromantic" and "ace" is a nickname for "asexual".
+
+```{r aroallo}
+palette_lgbtq("aroallo")
+```
+
+"Aroallo" means "experiencing sexual attraction and not experiencing romantic one", regardless of the type of sexual attraction. "Aro" is a shortening of "aromantic" and "allo" -- of "allosexual".
+
+## Other sexualities
+
+Even though the chapter says "sexualities", romantic and tertiary orientations belong there as well. Since these sexualities don't belong to A-spectrum, their umbrella term would be "allosexual" (and, analogously, "alloromantic").
+
+```{r pansexual}
+palette_lgbtq("pansexual")
+```
+
+A pansexual person may be attracted to any person regardless of target's gender. This sexuality differs from "omnisexual" in that this attraction is not influenced by gender, does not depend on gender. Also, pansexuality's flag is cooler.
+
+```{r lesbian_7}
+palette_lgbtq("lesbian_7")
+```
+
+A 7-stripe variant of the lesbian flag.
+
+```{r gay_7}
+palette_lgbtq("gay_7")
+```
+
+A 7-stripe variant of the gay flag.
+
+## Genders on fem-masc spectrum
+
+We've come to allow a lot of freedom when describing gender, but most people can describe their gender using terms of "femininity" and "masculinity". These are the identities that fit in this space:
+
+```{r demiboy}
+palette_lgbtq("demiboy")
+```
+
+A person that is partially a man. The other part of their gender may or may not include other genders.
+
+```{r demigirl}
+palette_lgbtq("demigirl")
+```
+
+A person that is partially a woman. The other part of their gender may or may not include other genders.
+
+## Other genders
+
+...and all the other terms related to gender that do not fit in the fem-masc spectrum:
+
+```{r genderfluid}
+palette_lgbtq("genderfluid")
+```
+
+A gender identity which fluctuates over time between feeling masculine, feminine, androgynous, and other gender descriptors. Fluctuations may be random or regular.
+
+```{r genderqueer}
+palette_lgbtq("genderqueer")
+```
+
+"Genderqueer" is an umbrella for all gender identites that are queer in one way or another.
+
+```{r agender}
+palette_lgbtq("agender")
+```
+
+An agender person is somebody who doesn't feel connection with any gender, who can be described as having no gender.
+
+```{r bigender}
+palette_lgbtq("bigender")
+```
+
+"Bigender" means a gender identity composed of two genders a person feels strong connection with. They may exist simultaneously or fluctuate over time. One of the two genders is probably stolen from some agender person.
+
+## Uncategorized
+
+All the terms that do not fit elsewhere. Currently empty.

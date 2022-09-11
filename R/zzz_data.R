@@ -13,7 +13,7 @@ pride_data <- list(
   ),
   bisexual = list(
     colors = c("#D00070", "#8C4799", "#0032A0"),
-    theme = theme_bisexual
+    theme = theme_ggplot2
   ),
   asexual = list(
     colors = c("#000000", "#A4A4A4", "#FFFFFF", "#810081")
@@ -31,7 +31,7 @@ pride_data <- list(
   lesbian = list(
     colors = c("#D62900", "#FF9B55", "#FFFFFF", "#D461A6", "#A50062")
   ),
-  gay_man = list(
+  gay = list(
     colors = c("#078D70", "#98E8C1", "#FFFFFF", "#7BADE2", "#3D1A78")
   ),
   intersex = list(
@@ -50,7 +50,29 @@ pride_data <- list(
   lesbian_7 = list(
     colors = c("#A60061", "#B95594", "#D162A8", "#FFFFFF", "#E5ADD1", "#C64D53", "#8C1801")
   ),
-  gay_man_7 = list(
+  gay_7 = list(
     colors = c("#078D70", "#26CEAA", "#98E8C1", "#FFFFFF", "#7BADE2", "#5049CC", "#3D1A78")
+  ),
+  agender = list(
+    colors = c("#000000", "#BCC4C7", "#FFFFFF", "#B7F684"),
+    theme = theme_agender
+  ),
+  demiboy = list(
+    colors = c("#7F7F7F", "#C4C4C4", "#9DD7EA", "#FFFFFF"),
+    theme = theme_demiboy
+  ),
+  demigirl = list(
+    colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF"),
+    theme = theme_demigirl
+  ),
+  bigender = list(
+    colors = c("#C479A2", "#EDA5CD", "#D6C7E8", "#FFFFFF", "#9AC7E8", "#6D82D1"),
+    theme = theme_ggplot2
+  ),
+  alloace = list(
+    colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
+  ),
+  aroallo = list(
+    colors = c("#3DA542", "#A8D379", "#FFFFFF", "#FBE34B", "#E8BB00")
   )
 )

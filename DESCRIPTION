@@ -1,7 +1,7 @@
 Package: gglgbtq
 Type: Package
 Title: Show Pride on 'ggplot2' Plots
-Version: 0.1.0
+Version: 0.1.1
 Date: 2022-08-06
 Authors@R: c(person("Laura", "Bakala",
              email = "erdaradun.gaztea@gmail.com",
@@ -12,6 +12,8 @@ Imports:
     graphics,
     grDevices
 Suggests: 
+    knitr,
+    rmarkdown,
     spelling,
     testthat (>= 3.0.0)
 License: GPL (>= 3)
@@ -19,5 +21,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Config/testthat/edition: 3
-URL: https://github.com/turtletopia/gglgbtq
+URL: https://github.com/turtletopia/gglgbtq,
+    https://turtletopia.github.io/gglgbtq/
 Language: en-US
+VignetteBuilder: knitr

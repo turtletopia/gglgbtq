@@ -53,5 +53,32 @@ theme_lgbtq_white <- function(...) {
   )
 }
 
-# Default settings are fine
-theme_bisexual <- ggplot2::theme
+theme_agender <- function(...) {
+  ggplot2::theme(
+    panel.background = element_rect(fill = "#DDE3D8", color = NA),
+    panel.grid.minor = element_line(size = rel(0.5)),
+    legend.key = element_rect(fill = "#DDE3D8", color = NA),
+    ...
+  )
+}
+
+theme_demiboy <- function(...) {
+  ggplot2::theme(
+    panel.background = element_rect(fill = "#D8E0E3", color = NA),
+    panel.grid.minor = element_line(size = rel(0.5)),
+    legend.key = element_rect(fill = "#D8E0E3", color = NA),
+    ...
+  )
+}
+
+theme_demigirl <- function(...) {
+  ggplot2::theme(
+    panel.background = element_rect(fill = "#E3DADD", color = NA),
+    panel.grid.minor = element_line(size = rel(0.5)),
+    legend.key = element_rect(fill = "#E3DADD", color = NA),
+    ...
+  )
+}
+
+# Default settings are fine too
+theme_ggplot2 <- ggplot2::theme
