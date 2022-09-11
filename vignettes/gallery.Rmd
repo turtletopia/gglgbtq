@@ -68,7 +68,7 @@ A person whose sex characteristics (phenotype, chromosomes, hormonal profile, et
 palette_lgbtq("nonbinary")
 ```
 
-A nonbinary person is somebody whose gender is not one of the two binary genders, i.e. woman or man. Usually nonbinary identities fall inside the spectrum between masculinity and feminity, but this need not be true for any enby (nonbinary person).
+A nonbinary person is somebody whose gender is not one of the two binary genders, i.e. woman or man. Usually nonbinary identities fall inside the spectrum between masculinity and femininity, but this need not be true for any enby (nonbinary person).
 
 ## Rainbow variants
 
@@ -132,7 +132,7 @@ A 7-stripe variant of the gay flag.
 
 ## Genders on fem-masc spectrum
 
-We've come to allow a lot of freedom when describing gender, but most people can describe their gender using terms of "feminity" and "masculinity". These are the identities that fit in this space:
+We've come to allow a lot of freedom when describing gender, but most people can describe their gender using terms of "femininity" and "masculinity". These are the identities that fit in this space:
 
 ```{r demiboy}
 palette_lgbtq("demiboy")
