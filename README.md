@@ -84,6 +84,10 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
 
 ## Gallery
 
+Only a few most common palettes are included below. For the complete
+list, see [palette gallery
+vignette](https://turtletopia.github.io/gglgbtq/articles/gallery.html).
+
 ``` r
 palette_lgbtq("rainbow")
 ```
@@ -109,7 +113,8 @@ palette_lgbtq("lesbian")
 ![](README_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
 
 ``` r
-palette_lgbtq("gay_man")
+# In its original meaning of "gay men"
+palette_lgbtq("gay")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-7-5.png)<!-- -->
@@ -134,54 +139,16 @@ palette_lgbtq("asexual")
 ![](README_files/figure-gfm/unnamed-chunk-7-8.png)<!-- -->
 
 ``` r
-palette_lgbtq("pansexual")
+palette_lgbtq("nonbinary")
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-7-9.png)<!-- -->
 
 ``` r
-palette_lgbtq("nonbinary")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-10.png)<!-- -->
-
-``` r
 palette_lgbtq("intersex")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-11.png)<!-- -->
-
-``` r
-palette_lgbtq("aromantic")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-12.png)<!-- -->
-
-``` r
-palette_lgbtq("genderfluid")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-13.png)<!-- -->
-
-``` r
-palette_lgbtq("genderqueer")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-14.png)<!-- -->
-
-``` r
-# Alternative version of 5-stripes lesbian flag
-palette_lgbtq("lesbian_7")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-15.png)<!-- -->
-
-``` r
-# Alternative version of 5-stripes gay men flag
-palette_lgbtq("gay_man_7")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-16.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-7-10.png)<!-- -->
 
 ## End notes
 
