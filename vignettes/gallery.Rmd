@@ -96,6 +96,12 @@ palette_lgbtq("aromantic")
 
 An aromantic person does not experience romantic attraction towards anyone.
 
+```{r acesthetic}
+palette_lgbtq("acesthetic")
+```
+
+"Acesthetic" (also called "anaesthetic") is a lack of aesthetic attraction (one of the tertiary orientations) towards other people.
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```

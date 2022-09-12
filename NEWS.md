@@ -1,5 +1,7 @@
 # gglgbtq (development version)
 
+* Implemented the following palettes: `acesthetic`.
+
 # gglgbtq 0.1.1
 
 * Implemented the following palettes: `agender`, `alloace`, `aroallo`, `bigender`, `demiboy`, `demigirl`.

@@ -40,6 +40,9 @@ pride_data <- list(
   aromantic = list(
     colors = c("#3DA542", "#A7D379", "#FFFFFF", "#A4A4A4", "#000000")
   ),
+  acesthetic = list(
+    colors = c("#000000", "#A4A4A4", "#FFFFFF", "#FD82AE")
+  ),
   alloace = list(
     colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
   ),

@@ -37,6 +37,7 @@ Currently available palettes are:
 \item \code{philadelphia} (8 colors)
 \item \code{progress} (11 colors)
 \item \code{aromantic} (5 colors)
+\item \code{acesthetic} (4 colors)
 \item \code{alloace} (4 colors)
 \item \code{aroallo} (5 colors)
 \item \code{pansexual} (3 colors)
