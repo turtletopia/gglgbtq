@@ -52,6 +52,9 @@ pride_data <- list(
   ace_spectrum = list(
     colors = c("#151747", "#7557AD", "#D992B4", "#FFEDED")
   ),
+  aro_spectrum = list(
+    colors = c("#3FA053", "#96D07C", "#F3FCCF", "#176363", "#052027")
+  ),
   alloace = list(
     colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
   ),
