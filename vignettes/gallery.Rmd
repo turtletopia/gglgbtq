@@ -108,6 +108,12 @@ palette_lgbtq("analterous")
 
 "Alterous attraction" is a term for the gray area between romantic and platonic attraction. A person that does not experience it is called "analterous".
 
+```{r asensual}
+palette_lgbtq("asensual")
+```
+
+A person that does not experience sensual attraction, i.e. a desire for a (possibly intimate) physical contact like cuddling.
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```

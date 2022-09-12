@@ -46,6 +46,9 @@ pride_data <- list(
   analterous = list(
     colors = c("#000000", "#A4A4A4", "#FFFFFF", "#75A0FF")
   ),
+  asensual = list(
+    colors = c("#000000", "#A4A4A4", "#FFFFFF", "#FFD698")
+  ),
   alloace = list(
     colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
   ),
