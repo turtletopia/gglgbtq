@@ -102,6 +102,12 @@ palette_lgbtq("acesthetic")
 
 "Acesthetic" (also called "anaesthetic") is a lack of aesthetic attraction (one of the tertiary orientations) towards other people.
 
+```{r analterous}
+palette_lgbtq("analterous")
+```
+
+"Alterous attraction" is a term for the gray area between romantic and platonic attraction. A person that does not experience it is called "analterous".
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```
