@@ -114,6 +114,12 @@ palette_lgbtq("asensual")
 
 A person that does not experience sensual attraction, i.e. a desire for a (possibly intimate) physical contact like cuddling.
 
+```{r ace_spectrum}
+palette_lgbtq("ace_spectrum")
+```
+
+This term encompasses all sexual orientations that are characterized by a complete or partial lack of sexual attraction, e.g. "asexual", "demisexual" or "graysexual".
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```

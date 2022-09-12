@@ -1,6 +1,6 @@
 # gglgbtq (development version)
 
-* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`.
+* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`, `ace_spectrum`.
 
 # gglgbtq 0.1.1
 

@@ -49,6 +49,9 @@ pride_data <- list(
   asensual = list(
     colors = c("#000000", "#A4A4A4", "#FFFFFF", "#FFD698")
   ),
+  ace_spectrum = list(
+    colors = c("#151747", "#7557AD", "#D992B4", "#FFEDED")
+  ),
   alloace = list(
     colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
   ),
