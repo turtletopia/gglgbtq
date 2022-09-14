@@ -66,6 +66,10 @@ pride_data <- list(
     colors = c("#FF1B8D", "#FFDA00", "#1BB3FF"),
     theme = theme_lgbtq_white
   ),
+  gynesexual = list(
+    colors = c("#F3A9B6", "#903F2A", "#5A953B"),
+    theme = theme_lgbtq_white
+  ),
   lesbian_7 = list(
     colors = c("#A60061", "#B95594", "#D162A8", "#FFFFFF", "#E5ADD1", "#C64D53", "#8C1801")
   ),

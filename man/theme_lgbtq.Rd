@@ -45,6 +45,7 @@ Currently available palettes are:
 \item \code{alloace} (4 colors)
 \item \code{aroallo} (5 colors)
 \item \code{pansexual} (3 colors)
+\item \code{gynesexual} (3 colors)
 \item \code{lesbian_7} (7 colors)
 \item \code{gay_7} (7 colors)
 \item \code{demiboy} (4 colors)

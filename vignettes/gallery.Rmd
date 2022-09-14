@@ -148,6 +148,12 @@ palette_lgbtq("pansexual")
 
 A pansexual person may be attracted to any person regardless of target's gender. This sexuality differs from "omnisexual" in that this attraction is not influenced by gender, does not depend on gender. Also, pansexuality's flag is cooler.
 
+```{r gynesexual}
+palette_lgbtq("gynesexual")
+```
+
+A "gynesexual" person is attracted to women or feminine-presenting people. This term is superior to "straight [man]" and "lesbian", since it does not imply anything about person's gender and is usable by non-binary people as well.
+
 ```{r lesbian_7}
 palette_lgbtq("lesbian_7")
 ```
