@@ -204,6 +204,12 @@ palette_lgbtq("solarian")
 
 A non-binary person whose identity is male-aligned or whose expression is masculine-aligned.
 
+```{r stellarian}
+palette_lgbtq("stellarian")
+```
+
+A term for a non-binary person of neutral-aligned identity, unrelated to manhood and womanhood, however still perceived as gendered.
+
 <!--
 ```{r helian}
 palette_lgbtq("helian")

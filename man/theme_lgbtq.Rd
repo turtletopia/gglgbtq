@@ -53,6 +53,7 @@ Currently available palettes are:
 \item \code{demigirl} (4 colors)
 \item \code{lunarian} (5 colors)
 \item \code{solarian} (5 colors)
+\item \code{stellarian} (5 colors)
 \item \code{genderfluid} (5 colors)
 \item \code{genderqueer} (3 colors)
 \item \code{agender} (4 colors)

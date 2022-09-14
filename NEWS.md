@@ -1,6 +1,6 @@
 # gglgbtq (development version)
 
-* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`, `ace_spectrum`, `aro_spectrum`, `androsexual`, `gynesexual`, `lunarian`, `solarian`.
+* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`, `ace_spectrum`, `aro_spectrum`, `androsexual`, `gynesexual`, `lunarian`, `solarian`, `stellarian`.
 
 # gglgbtq 0.1.1
 
