@@ -192,6 +192,12 @@ A person that is partially a woman. The other part of their gender may or may no
 
 Some non-binary people got tired of having to explain their genders in binary terms, like in the category above. As such, they created a gender system with names based on celestial bodies that allows to specify one's gender alignment (which does not imply one's actual gender).
 
+```{r lunarian}
+palette_lgbtq("lunarian")
+```
+
+"Lunarian" means a person of female-aligned identity or whose expression is feminine-aligned.
+
 ```{r solarian}
 palette_lgbtq("solarian")
 ```

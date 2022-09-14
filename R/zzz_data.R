@@ -90,6 +90,10 @@ pride_data <- list(
     theme = theme_demigirl
   ),
   # Galactian alignment system
+  lunarian = list(
+    colors = c("#C6A5D0", "#85618D", "#FFF7B8", "#000000", "#B5B5B5"),
+    theme = theme_ggplot2
+  ),
   solarian = list(
     colors = c("#FFB187", "#FF7D51", "#FFF7B8", "#000000", "#B5B5B5"),
     theme = theme_ggplot2
