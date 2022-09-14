@@ -89,6 +89,11 @@ pride_data <- list(
     colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF"),
     theme = theme_demigirl
   ),
+  # Galactian alignment system
+  solarian = list(
+    colors = c("#FFB187", "#FF7D51", "#FFF7B8", "#000000", "#B5B5B5"),
+    theme = theme_ggplot2
+  ),
   # Other genders
   genderfluid = list(
     colors = c("#FF76A4", "#FFFFFF", "#C011D7", "#000000", "#2F3CBE")

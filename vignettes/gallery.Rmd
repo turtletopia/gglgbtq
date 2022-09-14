@@ -188,6 +188,24 @@ palette_lgbtq("demigirl")
 
 A person that is partially a woman. The other part of their gender may or may not include other genders.
 
+## Galactian alignment system
+
+Some non-binary people got tired of having to explain their genders in binary terms, like in the category above. As such, they created a gender system with names based on celestial bodies that allows to specify one's gender alignment (which does not imply one's actual gender).
+
+```{r solarian}
+palette_lgbtq("solarian")
+```
+
+A non-binary person whose identity is male-aligned or whose expression is masculine-aligned.
+
+<!--
+```{r helian}
+palette_lgbtq("helian")
+```
+
+A non-binary person whose identity is male-aligned or otherwise connected to manhood. Different from "solarian" in that their identity does not need to be masculine-aligned.
+-->
+
 ## Other genders
 
 ...and all the other terms related to gender that do not fit in the fem-masc spectrum:

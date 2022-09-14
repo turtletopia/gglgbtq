@@ -51,6 +51,7 @@ Currently available palettes are:
 \item \code{gay_7} (7 colors)
 \item \code{demiboy} (4 colors)
 \item \code{demigirl} (4 colors)
+\item \code{solarian} (5 colors)
 \item \code{genderfluid} (5 colors)
 \item \code{genderqueer} (3 colors)
 \item \code{agender} (4 colors)
