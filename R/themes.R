@@ -81,4 +81,6 @@ theme_demigirl <- function(...) {
 }
 
 # Default settings are fine too
-theme_ggplot2 <- ggplot2::theme
+theme_ggplot2 <- function(...) {
+  ggplot2::theme(...)
+}
