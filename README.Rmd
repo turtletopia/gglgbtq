@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-```{r, echo = FALSE}
+```{r opts, echo = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   fig.height = 1.6
@@ -25,7 +25,7 @@ gglgbtq provides multiple palettes based on flags in LGBTQ community. These pale
 
 ## Installation
 
-```{r eval = FALSE}
+```{r install, eval = FALSE}
 # Install the development version from GitHub:
 # install.packages("devtools")
 devtools::install_github("turtletopia/gglgbtq")
@@ -35,14 +35,14 @@ devtools::install_github("turtletopia/gglgbtq")
 
 To list all available palettes, call:
 
-```{r}
+```{r pride_head}
 # Showing only the first 6 palettes (to avoid cluttering this README)
 head(show_pride())
 ```
 
 The most common use case is to use palettes with ggplot2:
 
-```{r, fig.height=3}
+```{r ggplot2, fig.height=3}
 library(ggplot2)
 
 data <- data.frame(
@@ -58,7 +58,7 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
 
 Use matching `theme_lgbtq()` to make colors stand out the most:
 
-```{r, fig.height=3}
+```{r ggplot2_theme, fig.height=3}
 ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
   geom_bar(stat = "identity", position = "dodge") +
   scale_fill_manual(values = palette_lgbtq("pansexual")) +
@@ -67,7 +67,7 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
 
 `theme_lgbtq()` passes additional parameters to `ggplot2::theme()`, so it's fully customizable:
 
-```{r, fig.height=3}
+```{r ggplot2_theme_custom, fig.height=3}
 ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
   geom_bar(stat = "identity", position = "dodge") +
   scale_fill_manual(values = palette_lgbtq("pansexual")) +
@@ -78,7 +78,7 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
 
 Only a few most common palettes are included below. For the complete list, see [palette gallery vignette](https://turtletopia.github.io/gglgbtq/articles/gallery.html).
 
-```{r}
+```{r palettes}
 palette_lgbtq("rainbow")
 palette_lgbtq("philadelphia")
 palette_lgbtq("progress")
