@@ -18,7 +18,7 @@ options(gglgbtq_font_size = 1.7)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![CRAN status](https://www.r-pkg.org/badges/version/gglgbtq)](https://CRAN.R-project.org/package=gglgbtq)
 [![R-CMD-check](https://github.com/turtletopia/gglgbtq/workflows/R-CMD-check/badge.svg)](https://github.com/turtletopia/gglgbtq/actions)
-[![Codecov test coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.svg)](https://codecov.io/gh/turtletopia/gglgbtq?branch=master)
+[![Codecov test coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.svg)](https://app.codecov.io/gh/turtletopia/gglgbtq?branch=master)
 <!-- badges: end -->
 
 gglgbtq provides multiple palettes based on flags in LGBTQ community. These palettes are accompanied by ggplot2 themes that maximize readability of each palette (especially of the white strip that is present in most flags).
