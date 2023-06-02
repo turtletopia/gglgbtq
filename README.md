@@ -9,7 +9,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/gglgbtq)](https://CRAN.R-project.org/package=gglgbtq)
 [![R-CMD-check](https://github.com/turtletopia/gglgbtq/workflows/R-CMD-check/badge.svg)](https://github.com/turtletopia/gglgbtq/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.svg)](https://codecov.io/gh/turtletopia/gglgbtq?branch=master)
+coverage](https://codecov.io/gh/turtletopia/gglgbtq/branch/master/graph/badge.svg)](https://app.codecov.io/gh/turtletopia/gglgbtq?branch=master)
 <!-- badges: end -->
 
 gglgbtq provides multiple palettes based on flags in LGBTQ community.
@@ -57,7 +57,7 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
   scale_fill_manual(values = palette_lgbtq("pansexual"))
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](README_files/figure-gfm/ggplot2-1.png)<!-- -->
 
 Use matching `theme_lgbtq()` to make colors stand out the most:
 
@@ -68,7 +68,7 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
   theme_lgbtq("pansexual")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](README_files/figure-gfm/ggplot2_theme-1.png)<!-- -->
 
 `theme_lgbtq()` passes additional parameters to `ggplot2::theme()`, so
 it’s fully customizable:
@@ -80,108 +80,75 @@ ggplot(data, aes(x = x, y = y, fill = as.factor(group))) +
   theme_lgbtq("pansexual", legend.position = "left")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](README_files/figure-gfm/ggplot2_theme_custom-1.png)<!-- -->
 
 ## Gallery
+
+Only a few most common palettes are included below. For the complete
+list, see [palette gallery
+vignette](https://turtletopia.github.io/gglgbtq/articles/gallery.html).
 
 ``` r
 palette_lgbtq("rainbow")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](README_files/figure-gfm/palettes-1.png)<!-- -->
 
 ``` r
 palette_lgbtq("philadelphia")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+![](README_files/figure-gfm/palettes-2.png)<!-- -->
 
 ``` r
 palette_lgbtq("progress")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
+![](README_files/figure-gfm/palettes-3.png)<!-- -->
 
 ``` r
 palette_lgbtq("lesbian")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-4.png)<!-- -->
+![](README_files/figure-gfm/palettes-4.png)<!-- -->
 
 ``` r
-palette_lgbtq("gay_man")
+# In its original meaning of "gay men"
+palette_lgbtq("gay")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-5.png)<!-- -->
+![](README_files/figure-gfm/palettes-5.png)<!-- -->
 
 ``` r
 palette_lgbtq("bisexual")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-6.png)<!-- -->
+![](README_files/figure-gfm/palettes-6.png)<!-- -->
 
 ``` r
 # Background added to avoid the "disappearance" of the white stripe
 print(palette_lgbtq("transgender"), background = "gray92")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-7.png)<!-- -->
+![](README_files/figure-gfm/palettes-7.png)<!-- -->
 
 ``` r
 palette_lgbtq("asexual")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-8.png)<!-- -->
-
-``` r
-palette_lgbtq("pansexual")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-9.png)<!-- -->
+![](README_files/figure-gfm/palettes-8.png)<!-- -->
 
 ``` r
 palette_lgbtq("nonbinary")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-10.png)<!-- -->
+![](README_files/figure-gfm/palettes-9.png)<!-- -->
 
 ``` r
 palette_lgbtq("intersex")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-7-11.png)<!-- -->
-
-``` r
-palette_lgbtq("aromantic")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-12.png)<!-- -->
-
-``` r
-palette_lgbtq("genderfluid")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-13.png)<!-- -->
-
-``` r
-palette_lgbtq("genderqueer")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-14.png)<!-- -->
-
-``` r
-# Alternative version of 5-stripes lesbian flag
-palette_lgbtq("lesbian_7")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-15.png)<!-- -->
-
-``` r
-# Alternative version of 5-stripes gay men flag
-palette_lgbtq("gay_man_7")
-```
-
-![](README_files/figure-gfm/unnamed-chunk-7-16.png)<!-- -->
+![](README_files/figure-gfm/palettes-10.png)<!-- -->
 
 ## End notes
 

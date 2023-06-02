@@ -5,7 +5,8 @@ Version: 0.1.1.9000
 Date: 2022-08-06
 Authors@R: c(person("Laura", "Bakala",
              email = "erdaradun.gaztea@gmail.com",
-             role = c("cre", "aut", "cph")))
+             role = c("cre", "aut", "cph"),
+             comment = c(ORCID = "0000-0002-3213-2484")))
 Description: Provides multiple palettes based on pride flags with tailored themes.
 Imports: 
     ggplot2,
