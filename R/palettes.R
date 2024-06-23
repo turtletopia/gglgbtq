@@ -27,31 +27,34 @@ palette_lgbtq <- function(name) {
   }
 
   structure(
-    extract_colors(name),
+    pride_data[[name]][["colors"]],
     class = "lgbtq_palette",
     name = name
   )
 }
 
-#' @importFrom graphics rect par image text
-#' @importFrom grDevices rgb
 #' @export
 print.lgbtq_palette <- function(x, ...,
                                 background = getOption("gglgbtq_bg"),
                                 font_size = getOption("gglgbtq_font_size")) {
-  old <- par(
+  old <- graphics::par(
     mar = c(.2, .2, .2, .2),
     bg = "white"
   )
-  on.exit(par(old))
+  on.exit(graphics::par(old))
 
-  par(bg = background)
+  graphics::par(bg = background)
 
   n <- length(x)
-  image(seq_len(n), 1, as.matrix(seq_len(n)), col = x,
-        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+  graphics::image(seq_len(n), 1, as.matrix(seq_len(n)), col = x,
+                  ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
-  rect(0, 0.9, n + 1, 1.1, col = rgb(.95, .95, .95, 0.8), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x, "name", exact = TRUE),
-       cex = font_size, family = "sans")
+  graphics::rect(
+    xleft = 0, ybottom = 0.9, xright = n + 1, ytop = 1.1,
+    col = grDevices::rgb(.95, .95, .95, 0.8), border = NA
+  )
+  graphics::text(
+    x = (n + 1) / 2, y = 1,
+    labels = attr(x, "name", exact = TRUE), cex = font_size, family = "sans"
+  )
 }

@@ -1,8 +1,7 @@
 pride_data <- list(
   # Base flags
   rainbow = list(
-    colors = c("#E40303", "#FF8C00", "#FFED00", "#008026", "#24408E", "#732982"),
-    theme = theme_lgbtq_white
+    colors = c("#E40303", "#FF8C00", "#FFED00", "#008026", "#24408E", "#732982")
   ),
   lesbian = list(
     colors = c("#D62900", "#FF9B55", "#FFFFFF", "#D461A6", "#A50062")
@@ -11,8 +10,7 @@ pride_data <- list(
     colors = c("#078D70", "#98E8C1", "#FFFFFF", "#7BADE2", "#3D1A78")
   ),
   bisexual = list(
-    colors = c("#D00070", "#8C4799", "#0032A0"),
-    theme = theme_ggplot2
+    colors = c("#D00070", "#8C4799", "#0032A0")
   ),
   transgender = list(
     colors = c("#55CDFC", "#F7A8B8", "#FFFFFF")
@@ -21,16 +19,14 @@ pride_data <- list(
     colors = c("#000000", "#A4A4A4", "#FFFFFF", "#810081")
   ),
   intersex = list(
-    colors = c("#FFD800", "#7902AA"),
-    theme = theme_lgbtq_white
+    colors = c("#FFD800", "#7902AA")
   ),
   nonbinary = list(
     colors = c("#FFF430", "#FFFFFF", "#9C59D1", "#000000")
   ),
   # Rainbow variants
   philadelphia = list(
-    colors = c("#000000", "#784F17", "#D12229", "#F68A1E", "#FDE01A", "#007940", "#24408E", "#732982"),
-    theme = theme_lgbtq_white
+    colors = c("#000000", "#784F17", "#D12229", "#F68A1E", "#FDE01A", "#007940", "#24408E", "#732982")
   ),
   progress = list(
     colors = c("#D12229", "#F68A1E", "#FDE01A", "#007940", "#24408E", "#732982",
@@ -63,16 +59,13 @@ pride_data <- list(
   ),
   # Other sexualities
   pansexual = list(
-    colors = c("#FF1B8D", "#FFDA00", "#1BB3FF"),
-    theme = theme_lgbtq_white
+    colors = c("#FF1B8D", "#FFDA00", "#1BB3FF")
   ),
   androsexual = list(
-    colors = c("#00CCFF", "#603524", "#B79ADD"),
-    theme = theme_lgbtq_white
+    colors = c("#00CCFF", "#603524", "#B79ADD")
   ),
   gynesexual = list(
-    colors = c("#F3A9B6", "#903F2A", "#5A953B"),
-    theme = theme_lgbtq_white
+    colors = c("#F3A9B6", "#903F2A", "#5A953B")
   ),
   lesbian_7 = list(
     colors = c("#A60061", "#B95594", "#D162A8", "#FFFFFF", "#E5ADD1", "#C64D53", "#8C1801")
@@ -82,25 +75,20 @@ pride_data <- list(
   ),
   # Fem-masc genders
   demiboy = list(
-    colors = c("#7F7F7F", "#C4C4C4", "#9DD7EA", "#FFFFFF"),
-    theme = theme_demiboy
+    colors = c("#7F7F7F", "#C4C4C4", "#9DD7EA", "#FFFFFF")
   ),
   demigirl = list(
-    colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF"),
-    theme = theme_demigirl
+    colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF")
   ),
   # Galactian alignment system
   lunarian = list(
-    colors = c("#C6A5D0", "#85618D", "#FFF7B8", "#000000", "#B5B5B5"),
-    theme = theme_ggplot2
+    colors = c("#C6A5D0", "#85618D", "#FFF7B8", "#000000", "#B5B5B5")
   ),
   solarian = list(
-    colors = c("#FFB187", "#FF7D51", "#FFF7B8", "#000000", "#B5B5B5"),
-    theme = theme_ggplot2
+    colors = c("#FFB187", "#FF7D51", "#FFF7B8", "#000000", "#B5B5B5")
   ),
   stellarian = list(
-    colors = c("#B6D6C1", "#79C49D", "#FFF7B8", "#000000", "#B5B5B5"),
-    theme = theme_ggplot2
+    colors = c("#B6D6C1", "#79C49D", "#FFF7B8", "#000000", "#B5B5B5")
   ),
   # Other genders
   genderfluid = list(
@@ -110,11 +98,9 @@ pride_data <- list(
     colors = c("#B57EDC", "#FFFFFF", "#4A8123")
   ),
   agender = list(
-    colors = c("#000000", "#BCC4C7", "#FFFFFF", "#B7F684"),
-    theme = theme_agender
+    colors = c("#000000", "#BCC4C7", "#FFFFFF", "#B7F684")
   ),
   bigender = list(
-    colors = c("#C479A2", "#EDA5CD", "#D6C7E8", "#FFFFFF", "#9AC7E8", "#6D82D1"),
-    theme = theme_ggplot2
+    colors = c("#C479A2", "#EDA5CD", "#D6C7E8", "#FFFFFF", "#9AC7E8", "#6D82D1")
   )
 )
