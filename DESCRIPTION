@@ -8,10 +8,13 @@ Authors@R: c(person("Laura", "Bakala",
              role = c("cre", "aut", "cph"),
              comment = c(ORCID = "0000-0002-3213-2484")))
 Description: Provides multiple palettes based on pride flags with tailored themes.
+Depends: 
+    R (>= 2.10)
 Imports: 
     ggplot2,
     graphics,
-    grDevices
+    grDevices,
+    tibble
 Suggests: 
     knitr,
     rmarkdown,
@@ -20,9 +23,10 @@ Suggests:
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Config/testthat/edition: 3
 URL: https://github.com/turtletopia/gglgbtq,
     https://turtletopia.github.io/gglgbtq/
 Language: en-US
 VignetteBuilder: knitr
+LazyData: true
