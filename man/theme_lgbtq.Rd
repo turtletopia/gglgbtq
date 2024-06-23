@@ -42,6 +42,7 @@ Currently available palettes are:
 \item \code{asensual} (4 colors)
 \item \code{ace_spectrum} (4 colors)
 \item \code{aro_spectrum} (5 colors)
+\item \code{aroace} (5 colors)
 \item \code{alloace} (4 colors)
 \item \code{aroallo} (5 colors)
 \item \code{pansexual} (3 colors)
@@ -59,6 +60,9 @@ Currently available palettes are:
 \item \code{genderqueer} (3 colors)
 \item \code{agender} (4 colors)
 \item \code{bigender} (6 colors)
+\item \code{amatopunk} (5 colors)
+\item \code{butch} (7 colors)
+\item \code{femme} (5 colors)
 }
 }
 

@@ -126,6 +126,12 @@ palette_lgbtq("aro_spectrum")
 
 "Aromantic spectrum" (also called "aro spectrum" or "arospec") is an umbrella term for all romantic orientations characterized by a complete or partial lack of romantic attraction, e.g. "aromantic", "demiromantic", "grayromantic"... analogously to "ace spectrum".
 
+```{r aroace}
+palette_lgbtq("aroace")
+```
+
+"Aroace" is a term for individuals experiencing neither romantic nor sexual attration; in other words, "aromantic asexual".
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```
@@ -243,6 +249,26 @@ palette_lgbtq("bigender")
 ```
 
 "Bigender" means a gender identity composed of two genders a person feels strong connection with. They may exist simultaneously or fluctuate over time. One of the two genders is probably stolen from some agender person.
+
+## Subcultures
+
+```{r amatopunk}
+palette_lgbtq("amatopunk")
+```
+
+Amatopunks challenge the amatonormativity, i.e. the societal expectations that everybody should desire a monogamous sexual and romantic relationship, exclusive towards polyamorous, asexual, and aromantic people (as in, belonging to any of these three groups).
+
+```{r butch}
+palette_lgbtq("butch")
+```
+
+"Butch" is a term most commonly used to describe a lesbian with a masculine expression. There exists a variant with 5 stripes too, albeit far less prevalent.
+
+```{r femme}
+palette_lgbtq("femme")
+```
+
+"Femme" is a term most commonly used to describe a lesbian with a feminine expression. There are a lot of different proposed flags yet none in predominant use, and the one included here was chosen for the best distinguishability of its colors.
 
 ## Uncategorized
 

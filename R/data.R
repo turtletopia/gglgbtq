@@ -51,6 +51,9 @@ pride_data <- list(
   aro_spectrum = list(
     colors = c("#3FA053", "#96D07C", "#F3FCCF", "#176363", "#052027")
   ),
+  aroace = list(
+    colors = c("#E28C00", "#ECCD00", "#FFFFFF", "#62AEDC", "#203856")
+  ),
   alloace = list(
     colors = c("#D50100", "#F85858", "#FFFFFF", "#81007F")
   ),
@@ -105,5 +108,15 @@ pride_data <- list(
   ),
   bigender = list(
     colors = c("#C479A2", "#EDA5CD", "#D6C7E8", "#FFFFFF", "#9AC7E8", "#6D82D1")
+  ),
+  # Subcultures
+  amatopunk = list(
+    colors = c("#531768", "#B74D71", "#DB966D", "#FFE7AA", "#4E8C69")
+  ),
+  butch = list(
+    colors = c("#324070", "#6A7AA4", "#8A92A9", "#EDECEB", "#C0B4DB", "#764EC5", "#51048A")
+  ),
+  femme = list(
+    colors = c("#7D0037", "#DE42F1", "#FDFDFD", "#F29C41", "#9E470E")
   )
 )

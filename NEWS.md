@@ -1,7 +1,7 @@
 # gglgbtq (development version)
 
 * Added `scale_color_lgbtq()` and `scale_fill_lgbtq()` for convenience.
-* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`, `ace_spectrum`, `aro_spectrum`, `androsexual`, `gynesexual`, `helian`, `lunarian`, `solarian`, `stellarian`.
+* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`, `ace_spectrum`, `aro_spectrum`, `aroace`, `androsexual`, `gynesexual`, `helian`, `lunarian`, `solarian`, `stellarian`, `amatopunk`, `butch`, `femme`.
 
 # gglgbtq 0.1.1
 
