@@ -46,6 +46,7 @@ Currently available palettes are:
 \item \code{gay_7} (7 colors)
 \item \code{demiboy} (4 colors)
 \item \code{demigirl} (4 colors)
+\item \code{helian} (5 colors)
 \item \code{lunarian} (5 colors)
 \item \code{solarian} (5 colors)
 \item \code{stellarian} (5 colors)

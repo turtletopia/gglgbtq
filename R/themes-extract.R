@@ -12,6 +12,7 @@ extract_theme <- function(palette) {
     "demigirl" = theme_demigirl,
     "bigender" = ,
     "bisexual" = ,
+    "helian" = ,
     "lunarian" = ,
     "solarian" = ,
     "stellarian" = theme_ggplot2,

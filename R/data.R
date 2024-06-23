@@ -81,6 +81,9 @@ pride_data <- list(
     colors = c("#7F7F7F", "#C4C4C4", "#FDADC8", "#FFFFFF")
   ),
   # Galactian alignment system
+  helian = list(
+    colors = c("#FF7367", "#BC3028", "#FFF7B8", "#000000", "#B5B5B5")
+  ),
   lunarian = list(
     colors = c("#C6A5D0", "#85618D", "#FFF7B8", "#000000", "#B5B5B5")
   ),
