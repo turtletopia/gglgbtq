@@ -46,9 +46,10 @@ print.lgbtq_palette <- function(x, ...,
   graphics::par(bg = background)
 
   n <- length(x)
-  graphics::image(seq_len(n), 1, as.matrix(seq_len(n)), col = x,
-                  ylab = "", xaxt = "n", yaxt = "n", bty = "n")
-
+  graphics::image(
+    x = seq_len(n), y = 1, z = as.matrix(seq_len(n)),
+    col = x, ylab = "", xaxt = "n", yaxt = "n", bty = "n"
+  )
   graphics::rect(
     xleft = 0, ybottom = 0.9, xright = n + 1, ytop = 1.1,
     col = grDevices::rgb(.95, .95, .95, 0.8), border = NA
