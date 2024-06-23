@@ -3,27 +3,29 @@
 #' @description Returns a palette object with colors based on a specified LGBTQ
 #' flag. Note: the number of colors vary between palettes!
 #'
-#' @template name
+#' @param name `character(1)` \cr
+#'  Name of the flag the colors are based on.
 #'
 #' @eval roxygen_available_palettes()
 #'
-#' @return An `lgbtq_palette` object containing a vector of RGB color codes as
-#' strings.
+#' @return An `lgbtq_palette` object containing a vector of RGB color codes as strings.
 #'
 #' @examples
 #' palette_lgbtq("bisexual")
 #'
-#' library(ggplot2)
-#' ggplot(data.frame(x = 1:10, y = 15:6,
-#'                   group = rep(c("a", "b"), each = 5)),
-#'        aes(x = x, y = y, color = group)) +
-#'   geom_point(size = 4) +
-#'   scale_color_manual(values = palette_lgbtq("intersex"))
+#' data <- data.frame(
+#'   x = 1:10, y = 15:6,
+#'   group = rep(c("a", "b"), each = 5)
+#' )
+#'
+#' ggplot2::ggplot(data, ggplot2::aes(x = x, y = y, color = group)) +
+#'   ggplot2::geom_point(size = 4) +
+#'   ggplot2::scale_color_manual(values = palette_lgbtq("intersex"))
 #'
 #' @export
 palette_lgbtq <- function(name) {
   if (!name %in% names(pride_data)) {
-    stop("Palette doesn't exist!", call. = FALSE)
+    rlang::abort(sprintf("Palette '%s' not recognized as gglgbtq palette.", name))
   }
 
   structure(

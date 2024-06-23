@@ -5,21 +5,24 @@
 #' light. Conversely, this same gray is too dark for flags with yellow stripes.
 #' LGBTQ themes are carefully curated for each palette.
 #'
-#' @template name
-#' @param ... \code{ANY}\cr
-#'  Parameters passed to \code{\link[ggplot2]{theme}()}.
+#' @param name `character(1)` \cr
+#'  Name of the flag the colors are based on.
+#' @param ... `ANY` \cr
+#'  Parameters passed to [ggplot2::theme()].
 #'
 #' @eval roxygen_available_palettes()
 #'
 #' @return A ggplot2 `theme` object.
 #'
 #' @examples
-#' library(ggplot2)
-#' ggplot(data.frame(x = 1:10, y = 15:6,
-#'                   group = rep(c("a", "b"), each = 5)),
-#'        aes(x = x, y = y, color = group)) +
-#'   geom_point(size = 4) +
-#'   scale_color_manual(values = palette_lgbtq("intersex")) +
+#' data <- data.frame(
+#'   x = 1:10, y = 15:6,
+#'   group = rep(c("a", "b"), each = 5)
+#' )
+#'
+#' ggplot2::ggplot(data, ggplot2::aes(x = x, y = y, color = group)) +
+#'   ggplot2::geom_point(size = 4) +
+#'   scale_color_lgbtq("intersex") +
 #'   # Use the same name as for values, preferably
 #'   theme_lgbtq("intersex")
 #'

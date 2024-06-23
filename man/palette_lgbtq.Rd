@@ -7,12 +7,11 @@
 palette_lgbtq(name)
 }
 \arguments{
-\item{name}{\code{character(1)}\cr
+\item{name}{\code{character(1)} \cr
 Name of the flag the colors are based on.}
 }
 \value{
-An \code{lgbtq_palette} object containing a vector of RGB color codes as
-strings.
+An \code{lgbtq_palette} object containing a vector of RGB color codes as strings.
 }
 \description{
 Returns a palette object with colors based on a specified LGBTQ
@@ -60,11 +59,13 @@ Currently available palettes are:
 \examples{
 palette_lgbtq("bisexual")
 
-library(ggplot2)
-ggplot(data.frame(x = 1:10, y = 15:6,
-                  group = rep(c("a", "b"), each = 5)),
-       aes(x = x, y = y, color = group)) +
-  geom_point(size = 4) +
-  scale_color_manual(values = palette_lgbtq("intersex"))
+data <- data.frame(
+  x = 1:10, y = 15:6,
+  group = rep(c("a", "b"), each = 5)
+)
+
+ggplot2::ggplot(data, ggplot2::aes(x = x, y = y, color = group)) +
+  ggplot2::geom_point(size = 4) +
+  ggplot2::scale_color_manual(values = palette_lgbtq("intersex"))
 
 }
