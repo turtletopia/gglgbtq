@@ -258,6 +258,12 @@ palette_lgbtq("amatopunk")
 
 Amatopunks challenge the amatonormativity, i.e. the societal expectations that everybody should desire a monogamous sexual and romantic relationship, exclusive towards polyamorous, asexual, and aromantic people (as in, belonging to any of these three groups).
 
+```{r bear}
+palette_lgbtq("bear")
+```
+
+Typically "bears" are gay men (or masculine-aligned nonbinary people) with plethora of body hair and - usually - a sizable overall volume, whether from being fat, muscular, or stocky.
+
 ```{r butch}
 palette_lgbtq("butch")
 ```
@@ -269,6 +275,10 @@ palette_lgbtq("femme")
 ```
 
 "Femme" is a term most commonly used to describe a lesbian with a feminine expression. There are a lot of different proposed flags yet none in predominant use, and the one included here was chosen for the best distinguishability of its colors.
+
+```{r otter}
+palette_lgbtq("otter")
+```
 
 ## Uncategorized
 

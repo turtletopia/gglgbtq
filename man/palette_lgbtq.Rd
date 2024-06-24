@@ -56,8 +56,10 @@ Currently available palettes are:
 \item \code{agender} (4 colors)
 \item \code{bigender} (6 colors)
 \item \code{amatopunk} (5 colors)
+\item \code{bear} (7 colors)
 \item \code{butch} (7 colors)
 \item \code{femme} (5 colors)
+\item \code{otter} (5 colors)
 }
 }
 

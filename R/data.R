@@ -113,10 +113,16 @@ pride_data <- list(
   amatopunk = list(
     colors = c("#531768", "#B74D71", "#DB966D", "#FFE7AA", "#4E8C69")
   ),
+  bear = list(
+    colors = c("#623804", "#D56300", "#FEDD63", "#FEE6B8", "#FFFFFF", "#555555", "#000000")
+  ),
   butch = list(
     colors = c("#324070", "#6A7AA4", "#8A92A9", "#EDECEB", "#C0B4DB", "#764EC5", "#51048A")
   ),
   femme = list(
     colors = c("#7D0037", "#DE42F1", "#FDFDFD", "#F29C41", "#9E470E")
+  ),
+  otter = list(
+    colors = c("#23A8FA", "#9AD7FC", "#FFFFFF", "#B4B4B4", "#2A2A2A")
   )
 )
