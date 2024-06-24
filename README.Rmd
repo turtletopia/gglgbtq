@@ -10,9 +10,10 @@ knitr::opts_chunk$set(
 
 library(gglgbtq)
 options(gglgbtq_font_size = 1.7)
+set.seed(7)
 ```
 
-# gglgbtq
+# gglgbtq <a href="https://turtletopia.github.io/gglgbtq/"><img src="man/figures/logo.svg" align="right" height="139" /></a>
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)

@@ -1,5 +1,5 @@
 
-# gglgbtq
+# gglgbtq <a href="https://turtletopia.github.io/gglgbtq/"><img src="man/figures/logo.svg" align="right" height="139" /></a>
 
 <!-- badges: start -->
 
@@ -31,7 +31,7 @@ To list all available palettes, call:
 
 ``` r
 show_pride()
-## # A tibble: 32 × 2
+## # A tibble: 37 × 2
 ##    palettes     lengths
 ##    <chr>          <int>
 ##  1 rainbow            6
@@ -44,7 +44,7 @@ show_pride()
 ##  8 nonbinary          4
 ##  9 philadelphia       8
 ## 10 progress          11
-## # ℹ 22 more rows
+## # ℹ 27 more rows
 ```
 
 The most common use case is to use palettes with ggplot2:
