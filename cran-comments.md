@@ -1,4 +1,4 @@
-Updated code to fix warning with new ggplot2 release. Aside from that, added a few new palettes and a vignette.
+Two new functions for convenience and a lot of new palettes.
 
 ## R CMD check results
 

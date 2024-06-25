@@ -9,10 +9,10 @@
 #'
 #' @export
 show_pride <- function() {
-  data.frame(
+  tibble::tibble(
     palettes = names(pride_data),
-    lengths = vapply(pride_data, function(p) length(p[["colors"]]),
-                     integer(1), USE.NAMES = FALSE),
-    stringsAsFactors = FALSE
+    lengths = vapply(
+      pride_data, function(p) { length(p[["colors"]]) }, integer(1), USE.NAMES = FALSE
+    )
   )
 }

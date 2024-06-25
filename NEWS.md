@@ -1,3 +1,8 @@
+# gglgbtq 0.2.0
+
+* Added `scale_color_lgbtq()` and `scale_fill_lgbtq()` for convenience.
+* Implemented the following palettes: `acesthetic`, `analterous`, `asensual`, `ace_spectrum`, `aro_spectrum`, `aroace`, `androsexual`, `gynesexual`, `abrosexual`, `helian`, `lunarian`, `solarian`, `stellarian`, `amatopunk`, `bear`, `butch`, `femme`, `otter`, `queerhet`.
+
 # gglgbtq 0.1.1
 
 * Fixed potential error due to directly accessing `ggplot2::theme()`.

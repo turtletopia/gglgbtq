@@ -3,55 +3,61 @@
 #' @description Returns a palette object with colors based on a specified LGBTQ
 #' flag. Note: the number of colors vary between palettes!
 #'
-#' @template name
+#' @param name `character(1)` \cr
+#'  Name of the flag the colors are based on.
 #'
 #' @eval roxygen_available_palettes()
 #'
-#' @return An `lgbtq_palette` object containing a vector of RGB color codes as
-#' strings.
+#' @return An `lgbtq_palette` object containing a vector of RGB color codes as strings.
 #'
 #' @examples
 #' palette_lgbtq("bisexual")
 #'
-#' library(ggplot2)
-#' ggplot(data.frame(x = 1:10, y = 15:6,
-#'                   group = rep(c("a", "b"), each = 5)),
-#'        aes(x = x, y = y, color = group)) +
-#'   geom_point(size = 4) +
-#'   scale_color_manual(values = palette_lgbtq("intersex"))
+#' data <- data.frame(
+#'   x = 1:10, y = 15:6,
+#'   group = rep(c("a", "b"), each = 5)
+#' )
+#'
+#' ggplot2::ggplot(data, ggplot2::aes(x = x, y = y, color = group)) +
+#'   ggplot2::geom_point(size = 4) +
+#'   ggplot2::scale_color_manual(values = palette_lgbtq("intersex"))
 #'
 #' @export
 palette_lgbtq <- function(name) {
   if (!name %in% names(pride_data)) {
-    stop("Palette doesn't exist!", call. = FALSE)
+    rlang::abort(sprintf("Palette '%s' not recognized as gglgbtq palette.", name))
   }
 
   structure(
-    extract_colors(name),
+    pride_data[[name]][["colors"]],
     class = "lgbtq_palette",
     name = name
   )
 }
 
-#' @importFrom graphics rect par image text
-#' @importFrom grDevices rgb
 #' @export
 print.lgbtq_palette <- function(x, ...,
                                 background = getOption("gglgbtq_bg"),
                                 font_size = getOption("gglgbtq_font_size")) {
-  old <- par(
+  old <- graphics::par(
     mar = c(.2, .2, .2, .2),
     bg = "white"
   )
-  on.exit(par(old))
+  on.exit(graphics::par(old))
 
-  par(bg = background)
+  graphics::par(bg = background)
 
   n <- length(x)
-  image(seq_len(n), 1, as.matrix(seq_len(n)), col = x,
-        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
-
-  rect(0, 0.9, n + 1, 1.1, col = rgb(.95, .95, .95, 0.8), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x, "name", exact = TRUE),
-       cex = font_size, family = "sans")
+  graphics::image(
+    x = seq_len(n), y = 1, z = as.matrix(seq_len(n)),
+    col = x, ylab = "", xaxt = "n", yaxt = "n", bty = "n"
+  )
+  graphics::rect(
+    xleft = 0, ybottom = 0.9, xright = n + 1, ytop = 1.1,
+    col = grDevices::rgb(.95, .95, .95, 0.8), border = NA
+  )
+  graphics::text(
+    x = (n + 1) / 2, y = 1,
+    labels = attr(x, "name", exact = TRUE), cex = font_size, family = "sans"
+  )
 }

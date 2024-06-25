@@ -96,6 +96,42 @@ palette_lgbtq("aromantic")
 
 An aromantic person does not experience romantic attraction towards anyone.
 
+```{r acesthetic}
+palette_lgbtq("acesthetic")
+```
+
+"Acesthetic" (also called "anaesthetic") is a lack of aesthetic attraction (one of the tertiary orientations) towards other people.
+
+```{r analterous}
+palette_lgbtq("analterous")
+```
+
+"Alterous attraction" is a term for the gray area between romantic and platonic attraction. A person that does not experience it is called "analterous".
+
+```{r asensual}
+palette_lgbtq("asensual")
+```
+
+A person that does not experience sensual attraction, i.e. a desire for a (possibly intimate) physical contact like cuddling.
+
+```{r ace_spectrum}
+palette_lgbtq("ace_spectrum")
+```
+
+This term encompasses all sexual orientations that are characterized by a complete or partial lack of sexual attraction, e.g. "asexual", "demisexual" or "graysexual".
+
+```{r aro_spectrum}
+palette_lgbtq("aro_spectrum")
+```
+
+"Aromantic spectrum" (also called "aro spectrum" or "arospec") is an umbrella term for all romantic orientations characterized by a complete or partial lack of romantic attraction, e.g. "aromantic", "demiromantic", "grayromantic"... analogously to "ace spectrum".
+
+```{r aroace}
+palette_lgbtq("aroace")
+```
+
+"Aroace" is a term for individuals experiencing neither romantic nor sexual attration; in other words, "aromantic asexual".
+
 ```{r alloace}
 palette_lgbtq("alloace")
 ```
@@ -117,6 +153,24 @@ palette_lgbtq("pansexual")
 ```
 
 A pansexual person may be attracted to any person regardless of target's gender. This sexuality differs from "omnisexual" in that this attraction is not influenced by gender, does not depend on gender. Also, pansexuality's flag is cooler.
+
+```{r androsexual}
+palette_lgbtq("androsexual")
+```
+
+"Androsexual" is a term for any person, regardless of their gender, that is attracted to men or masculine-presenting people. Preferable to the traditional terms like "straight"/"gay", since it can be easily used by non-binary people as well.
+
+```{r gynesexual}
+palette_lgbtq("gynesexual")
+```
+
+A "gynesexual" person is attracted to women or feminine-presenting people. This term is superior to "straight [man]" and "lesbian", since it does not imply anything about person's gender and is usable by non-binary people as well.
+
+```{r abrosexual}
+palette_lgbtq("abrosexual")
+```
+
+Abrosexuality is defined by the fluctuations of one's sexual orientation, whether constant or occasional. It doesn't specify where on the sexuality spectrum these fluctuations occur.
 
 ```{r lesbian_7}
 palette_lgbtq("lesbian_7")
@@ -146,6 +200,34 @@ palette_lgbtq("demigirl")
 
 A person that is partially a woman. The other part of their gender may or may not include other genders.
 
+## Galactian alignment system
+
+Some non-binary people got tired of having to explain their genders in binary terms, like in the category above. As such, they created a gender system with names based on celestial bodies that allows to specify one's gender alignment (which does not imply one's actual gender).
+
+```{r lunarian}
+palette_lgbtq("lunarian")
+```
+
+"Lunarian" means a person of female-aligned identity or whose expression is feminine-aligned.
+
+```{r solarian}
+palette_lgbtq("solarian")
+```
+
+A non-binary person whose identity is male-aligned or whose expression is masculine-aligned.
+
+```{r stellarian}
+palette_lgbtq("stellarian")
+```
+
+A term for a non-binary person of neutral-aligned identity, unrelated to manhood and womanhood, however still perceived as gendered.
+
+```{r helian}
+palette_lgbtq("helian")
+```
+
+A non-binary person whose identity is male-aligned or otherwise connected to manhood. Different from "solarian" in that their identity does not need to be masculine-aligned.
+
 ## Other genders
 
 ...and all the other terms related to gender that do not fit in the fem-masc spectrum:
@@ -174,6 +256,46 @@ palette_lgbtq("bigender")
 
 "Bigender" means a gender identity composed of two genders a person feels strong connection with. They may exist simultaneously or fluctuate over time. One of the two genders is probably stolen from some agender person.
 
+## Subcultures
+
+While somebody's sexual orientation isn't that person's lifestyle (even though there are people suggesting otherwise), the terms here describe the way certain people express and identify themselves in strong connection with their sexuality. In a way, this is the closest to "lifestyle" you can get here.
+
+```{r amatopunk}
+palette_lgbtq("amatopunk")
+```
+
+Amatopunks challenge the amatonormativity, i.e. the societal expectations that everybody should desire a monogamous sexual and romantic relationship, exclusive towards polyamorous, asexual, and aromantic people (as in, belonging to any of these three groups).
+
+```{r bear}
+palette_lgbtq("bear")
+```
+
+Typically "bears" are gay men (or masculine-aligned nonbinary people) with plethora of body hair and - usually - a sizable overall volume, whether from being fat, muscular, or stocky.
+
+```{r butch}
+palette_lgbtq("butch")
+```
+
+"Butch" is a term most commonly used to describe a lesbian with a masculine expression. There exists a variant with 5 stripes too, albeit far less prevalent.
+
+```{r femme}
+palette_lgbtq("femme")
+```
+
+"Femme" is a term most commonly used to describe a lesbian with a feminine expression. There are a lot of different proposed flags yet none in predominant use, and the one included here was chosen for the best distinguishability of its colors.
+
+```{r otter}
+palette_lgbtq("otter")
+```
+
+Since "bear" triggers a natural association with a high-volume person, as explained before, the "otter" is its low-volume counterpart; retaining the other characteristics referring to maleness, gayness, and hairiness.
+
 ## Uncategorized
 
-All the terms that do not fit elsewhere. Currently empty.
+All the terms that do not fit elsewhere.
+
+```{r queerhet}
+palette_lgbtq("queerhet")
+```
+
+Queerhets use this term to signalize that allocishets are not the only heterosexual people in the existence. There exist people who are both straight and queer -- by being either transgender or A-spec.
