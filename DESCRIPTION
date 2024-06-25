@@ -1,7 +1,7 @@
 Package: gglgbtq
 Type: Package
 Title: Show Pride on 'ggplot2' Plots
-Version: 0.2.0
+Version: 0.2.0.9000
 Authors@R: c(person("Laura", "Bakala",
              email = "erdaradun.gaztea@gmail.com",
              role = c("cre", "aut", "cph"),

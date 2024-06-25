@@ -1,3 +1,5 @@
+# gglgbtq (development version)
+
 # gglgbtq 0.2.0
 
 * Added `scale_color_lgbtq()` and `scale_fill_lgbtq()` for convenience.
