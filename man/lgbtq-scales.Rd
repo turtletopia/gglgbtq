@@ -20,6 +20,9 @@ Name of the flag the colors are based on.}
 \item{...}{\code{ANY} \cr
 Arguments passed to \code{\link[ggplot2:scale_manual]{ggplot2::scale_color_manual()}}.}
 }
+\value{
+A scale to be used with a \pkg{ggplot2} object.
+}
 \description{
 These functions provide a shorthand for passing \code{\link[=palette_lgbtq]{palette_lgbtq()}} to \code{values} parameter of an appropriate ggplot2
 scale.

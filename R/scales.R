@@ -9,6 +9,8 @@
 #' @param ... `ANY` \cr
 #'  Arguments passed to [ggplot2::scale_color_manual()].
 #'
+#' @return A scale to be used with a \pkg{ggplot2} object.
+#'
 #' @examples
 #' data <- data.frame(
 #'   x = 1:10, y = 15:6,
