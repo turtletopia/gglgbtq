@@ -70,6 +70,9 @@ pride_data <- list(
   gynesexual = list(
     colors = c("#F3A9B6", "#903F2A", "#5A953B")
   ),
+  abrosexual = list(
+    colors = c("#37CBBD", "#95E9B1", "#FFFFFF", "#FEA396", "#F35777")
+  ),
   lesbian_7 = list(
     colors = c("#A60061", "#B95594", "#D162A8", "#FFFFFF", "#E5ADD1", "#C64D53", "#8C1801")
   ),
@@ -124,5 +127,9 @@ pride_data <- list(
   ),
   otter = list(
     colors = c("#23A8FA", "#9AD7FC", "#FFFFFF", "#B4B4B4", "#2A2A2A")
+  ),
+  # Uncategorized
+  queerhet = list(
+    colors = c("#4E8492", "#6CCB99", "#727D6E", "#DAC686", "#B86962")
   )
 )

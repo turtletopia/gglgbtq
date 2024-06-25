@@ -166,6 +166,12 @@ palette_lgbtq("gynesexual")
 
 A "gynesexual" person is attracted to women or feminine-presenting people. This term is superior to "straight [man]" and "lesbian", since it does not imply anything about person's gender and is usable by non-binary people as well.
 
+```{r abrosexual}
+palette_lgbtq("abrosexual")
+```
+
+Abrosexuality is defined by the fluctuations of one's sexual orientation, whether constant or occasional. It doesn't specify where on the sexuality spectrum these fluctuations occur.
+
 ```{r lesbian_7}
 palette_lgbtq("lesbian_7")
 ```
@@ -252,6 +258,8 @@ palette_lgbtq("bigender")
 
 ## Subcultures
 
+While somebody's sexual orientation isn't that person's lifestyle (even though there are people suggesting otherwise), the terms here describe the way certain people express and identify themselves in strong connection with their sexuality. In a way, this is the closest to "lifestyle" you can get here.
+
 ```{r amatopunk}
 palette_lgbtq("amatopunk")
 ```
@@ -280,6 +288,14 @@ palette_lgbtq("femme")
 palette_lgbtq("otter")
 ```
 
+Since "bear" triggers a natural association with a high-volume person, as explained before, the "otter" is its low-volume counterpart; retaining the other characteristics referring to maleness, gayness, and hairiness.
+
 ## Uncategorized
 
-All the terms that do not fit elsewhere. Currently empty.
+All the terms that do not fit elsewhere.
+
+```{r queerhet}
+palette_lgbtq("queerhet")
+```
+
+Queerhets use this term to signalize that allocishets are not the only heterosexual people in the existence. There exist people who are both straight and queer -- by being either transgender or A-spec.

@@ -54,7 +54,7 @@ data <- data.frame(
 
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_lgbtq("pansexual"))
+  scale_fill_lgbtq("pansexual")
 ```
 
 Use matching `theme_lgbtq()` to make colors stand out the most:
@@ -62,7 +62,7 @@ Use matching `theme_lgbtq()` to make colors stand out the most:
 ```{r ggplot2_theme, fig.height=3}
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  scale_fill_lgbtq("pansexual") +
   theme_lgbtq("pansexual")
 ```
 
@@ -71,16 +71,17 @@ ggplot(data, aes(x = x, y = y, fill = group)) +
 ```{r ggplot2_theme_custom, fig.height=3}
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  scale_fill_lgbtq("pansexual") +
   theme_lgbtq("pansexual", legend.position = "left")
 ```
 
-Almost all ggplot2 uses of `palette_lgbtq()` will be with `color` and `fill` scales, so the `scale_color_lgbtq()` and `scale_fill_lgbtq()` functions provide a shorthand and more descriptive notation:
+Almost all ggplot2 uses of `palette_lgbtq()` will be with `color` and `fill` scales, so the `scale_color_lgbtq()` and `scale_fill_lgbtq()` functions provide a shorthand and more descriptive notation; there's nothing stopping you, however, from passing them manually or using in any other package, though the ggplot2 dependency might be a pretty large one.
 
 ```{r ggplot2_scale, fig.height=3}
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_lgbtq("pansexual")
+  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  theme_lgbtq("pansexual", legend.position = "left")
 ```
 
 ## Gallery

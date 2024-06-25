@@ -31,7 +31,7 @@ To list all available palettes, call:
 
 ``` r
 show_pride()
-## # A tibble: 37 × 2
+## # A tibble: 41 × 2
 ##    palettes     lengths
 ##    <chr>          <int>
 ##  1 rainbow            6
@@ -44,7 +44,7 @@ show_pride()
 ##  8 nonbinary          4
 ##  9 philadelphia       8
 ## 10 progress          11
-## # ℹ 27 more rows
+## # ℹ 31 more rows
 ```
 
 The most common use case is to use palettes with ggplot2:
@@ -61,7 +61,7 @@ data <- data.frame(
 
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_lgbtq("pansexual"))
+  scale_fill_lgbtq("pansexual")
 ```
 
 ![](README_files/figure-gfm/ggplot2-1.png)<!-- -->
@@ -71,7 +71,7 @@ Use matching `theme_lgbtq()` to make colors stand out the most:
 ``` r
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  scale_fill_lgbtq("pansexual") +
   theme_lgbtq("pansexual")
 ```
 
@@ -83,7 +83,7 @@ it’s fully customizable:
 ``` r
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  scale_fill_lgbtq("pansexual") +
   theme_lgbtq("pansexual", legend.position = "left")
 ```
 
@@ -91,12 +91,16 @@ ggplot(data, aes(x = x, y = y, fill = group)) +
 
 Almost all ggplot2 uses of `palette_lgbtq()` will be with `color` and
 `fill` scales, so the `scale_color_lgbtq()` and `scale_fill_lgbtq()`
-functions provide a shorthand and more descriptive notation:
+functions provide a shorthand and more descriptive notation; there’s
+nothing stopping you, however, from passing them manually or using in
+any other package, though the ggplot2 dependency might be a pretty large
+one.
 
 ``` r
 ggplot(data, aes(x = x, y = y, fill = group)) +
   geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_lgbtq("pansexual")
+  scale_fill_manual(values = palette_lgbtq("pansexual")) +
+  theme_lgbtq("pansexual", legend.position = "left")
 ```
 
 ![](README_files/figure-gfm/ggplot2_scale-1.png)<!-- -->

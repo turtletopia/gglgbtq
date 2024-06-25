@@ -48,6 +48,7 @@ Currently available palettes are:
 \item \code{pansexual} (3 colors)
 \item \code{androsexual} (3 colors)
 \item \code{gynesexual} (3 colors)
+\item \code{abrosexual} (5 colors)
 \item \code{lesbian_7} (7 colors)
 \item \code{gay_7} (7 colors)
 \item \code{demiboy} (4 colors)
@@ -65,6 +66,7 @@ Currently available palettes are:
 \item \code{butch} (7 colors)
 \item \code{femme} (5 colors)
 \item \code{otter} (5 colors)
+\item \code{queerhet} (5 colors)
 }
 }
 
