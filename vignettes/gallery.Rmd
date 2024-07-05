@@ -172,6 +172,18 @@ palette_lgbtq("abrosexual")
 
 Abrosexuality is defined by the fluctuations of one's sexual orientation, whether constant or occasional. It doesn't specify where on the sexuality spectrum these fluctuations occur.
 
+```{r omnisexual}
+palette_lgbtq("omnisexual")
+```
+
+Omnisexuality describes attraction towards all genders; however, the attraction doesn't need to be equal altogether, this term allows having preferences.
+
+```{r omniromantic}
+palette_lgbtq("omniromantic")
+```
+
+A romantic attraction counterpart of the omnisexuality.
+
 ```{r lesbian_7}
 palette_lgbtq("lesbian_7")
 ```

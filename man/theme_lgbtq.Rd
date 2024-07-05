@@ -49,6 +49,8 @@ Currently available palettes are:
 \item \code{androsexual} (3 colors)
 \item \code{gynesexual} (3 colors)
 \item \code{abrosexual} (5 colors)
+\item \code{omnisexual} (5 colors)
+\item \code{omniromantic} (5 colors)
 \item \code{lesbian_7} (7 colors)
 \item \code{gay_7} (7 colors)
 \item \code{demiboy} (4 colors)

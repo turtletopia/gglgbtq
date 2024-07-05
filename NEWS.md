@@ -1,5 +1,7 @@
 # gglgbtq (development version)
 
+* Implemented the following palettes: `omniromantic`, `omnisexual`.
+
 # gglgbtq 0.2.0
 
 * Added `scale_color_lgbtq()` and `scale_fill_lgbtq()` for convenience.

@@ -73,6 +73,12 @@ pride_data <- list(
   abrosexual = list(
     colors = c("#37CBBD", "#95E9B1", "#FFFFFF", "#FEA396", "#F35777")
   ),
+  omnisexual = list(
+    colors = c("#FFABD7", "#FF55BE", "#240045", "#675FFE", "#8DA5FE")
+  ),
+  omniromantic = list(
+    colors = c("#FFABD7", "#FF55BE", "#003B4B", "#5BD9BA", "#91FFC5")
+  ),
   lesbian_7 = list(
     colors = c("#A60061", "#B95594", "#D162A8", "#FFFFFF", "#E5ADD1", "#C64D53", "#8C1801")
   ),
