@@ -10,7 +10,7 @@ Description: Provides multiple palettes based on pride flags with tailored theme
 Depends: 
     R (>= 2.10)
 Imports: 
-    ggplot2,
+    ggplot2 (>= 3.4.0),
     graphics,
     grDevices,
     rlang,
