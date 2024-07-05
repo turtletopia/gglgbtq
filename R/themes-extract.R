@@ -7,6 +7,7 @@ extract_theme <- function(palette) {
     "pansexual" = ,
     "philadelphia" = ,
     "queerhet" = ,
+    "questioning" = ,
     "rainbow" = theme_lgbtq_white,
     "agender" = theme_agender,
     "demiboy" = theme_demiboy,

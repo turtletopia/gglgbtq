@@ -69,6 +69,7 @@ Currently available palettes are:
 \item \code{femme} (5 colors)
 \item \code{otter} (5 colors)
 \item \code{queerhet} (5 colors)
+\item \code{questioning} (4 colors)
 }
 }
 

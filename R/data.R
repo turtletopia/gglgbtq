@@ -137,5 +137,8 @@ pride_data <- list(
   # Uncategorized
   queerhet = list(
     colors = c("#4E8492", "#6CCB99", "#727D6E", "#DAC686", "#B86962")
+  ),
+  questioning = list(
+    colors = c("#FF8636", "#F9E134", "#36E32D", "#2499F5")
   )
 )

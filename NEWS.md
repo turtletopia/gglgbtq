@@ -1,6 +1,6 @@
 # gglgbtq (development version)
 
-* Implemented the following palettes: `omniromantic`, `omnisexual`.
+* Implemented the following palettes: `omniromantic`, `omnisexual`, `questioning`.
 
 # gglgbtq 0.2.0
 

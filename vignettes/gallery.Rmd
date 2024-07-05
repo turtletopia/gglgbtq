@@ -311,3 +311,9 @@ palette_lgbtq("queerhet")
 ```
 
 Queerhets use this term to signalize that allocishets are not the only heterosexual people in the existence. There exist people who are both straight and queer -- by being either transgender or A-spec.
+
+```{r questioning}
+palette_lgbtq("questioning")
+```
+
+Questioning is a very important part of self-discovery. For people that don't know yet who they are and what labels (if any) they feel like using, these colors provide a flag they can, say, wave on a pride parade.
