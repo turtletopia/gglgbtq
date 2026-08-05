@@ -35,6 +35,7 @@ NULL
 scale_color_lgbtq <- function(values, ...) {
   assert_scale_values(values)
 
+  # TODO: Fix ... not passed to ggplot2
   ggplot2::scale_color_manual(values = palette_lgbtq(values))
 }
 
@@ -47,6 +48,7 @@ scale_colour_lgbtq <- scale_color_lgbtq
 scale_fill_lgbtq <- function(values, ...) {
   assert_scale_values(values)
 
+  # TODO: Fix ... not passed to ggplot2
   ggplot2::scale_fill_manual(values = palette_lgbtq(values))
 }
 
